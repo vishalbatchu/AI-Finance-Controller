@@ -1,0 +1,71 @@
+transaction_id,date,counterparty,amount,category,category_confidence,status,raw_text,original_category,classification_source
+TXN100000,2026-07-21,HDFC home loan EMI,24184.98,EMI,0.9918,Settled,HDFC home loan EMI | Ref:68c35030 | Amount: INR 24184.98,EMI,Model
+TXN100001,2026-07-10,Amazon online shopping,29339.81,Shopping,0.9887,Pending,Amazon online shopping | Ref:0e1e277d | Amount: INR 29339.81,Shopping,Model
+TXN100002,2026-07-26,SIP investment in mutual fund,6212.97,Investment,0.9896,Settled,SIP investment in mutual fund | Ref:aba63413 | Amount: INR 6212.97,Investment,Model
+TXN100003,2026-08-11,Cafe coffee purchase at,20275.52,Food,0.973,Settled,Cafe coffee purchase at | Ref:2bbd4348 | Amount: INR 20275.52,Food,Model
+TXN100004,2026-07-04,SBI car loan EMI,6484.62,EMI,0.9923,Failed,SBI car loan EMI | Ref:613c7ae6 | Amount: INR 6484.62,EMI,Model
+TXN100005,2026-07-05,McDonald's meal payment,13156.61,Food,0.9734,Settled,McDonald's meal payment | Ref:a781614b | Amount: INR 13156.61,Food,Model
+TXN100006,2026-08-04,Personal loan EMI deduction,40525.16,EMI,0.9916,Settled,Personal loan EMI deduction | Ref:71ea9a25 | Amount: INR 40525.16,EMI,Model
+TXN100007,2026-07-07,Credit card EMI installment,143.95,EMI,0.9905,Settled,Credit card EMI installment | Ref:59ba432e | Amount: INR 143.95,EMI,Model
+TXN100008,2026-07-24,HDFC home loan EMI,45837.85,EMI,0.9918,Settled,HDFC home loan EMI | Ref:30d2e9e2 | Amount: INR 45837.85,EMI,Model
+TXN100009,2026-08-07,Personal loan EMI deduction,42967.01,EMI,0.9916,Settled,Personal loan EMI deduction | Ref:4ad8153e | Amount: INR 42967.01,EMI,Model
+TXN100010,2026-07-04,IOCL FUEL STATION AHMEDABAD,45503.26,Travel,0.9027,Settled,IOCL FUEL STATION AHMEDABAD,Travel,Model
+TXN100011,2026-07-14,Cafe coffee purchase at,986.17,Food,0.973,Pending,Cafe coffee purchase at | Ref:09e7ef14 | Amount: INR 986.17,Food,Model
+TXN100012,2026-07-03,urban company service payment,4480.17,Shopping,0.5747,Settled,urban company service payment,Shopping,Model
+TXN100013,2026-07-27,Personal loan EMI deduction,40530.59,EMI,0.9916,Settled,Personal loan EMI deduction | Ref:303d2f51 | Amount: INR 40530.59,EMI,Model
+TXN100014,2026-07-05,Bajaj Finserv EMI payment,36760.48,EMI,0.9867,Settled,Bajaj Finserv EMI payment | Ref:1eb8accc | Amount: INR 36760.48,EMI,Model
+TXN100015,2026-07-16,Zomato dinner bill,18003.31,Food,0.98,Pending,Zomato dinner bill | Ref:b6cf02e3 | Amount: INR 18003.31,Food,Model
+TXN100016,2026-07-06,McDonald's meal payment,37422.19,Food,0.9734,Settled,McDonald's meal payment | Ref:30b0359b | Amount: INR 37422.19,Food,Model
+TXN100017,2026-08-05,IRCTC train ticket booking,4579.36,Travel,0.9866,Settled,IRCTC train ticket booking | Ref:35abeada | Amount: INR 4579.36,Travel,Model
+TXN100018,2026-07-28,McDonald's meal payment,13017.81,Food,0.9734,Failed,McDonald's meal payment | Ref:a16ea43e | Amount: INR 13017.81,Food,Model
+TXN100019,2026-07-04,Ola cab fare,2364.29,Travel,0.9753,Settled,Ola cab fare | Ref:19fb6f0b | Amount: INR 2364.29,Travel,Model
+TXN100020,2026-08-06,Cafe coffee purchase at,42123.78,Food,0.973,Settled,Cafe coffee purchase at | Ref:52f51fe4 | Amount: INR 42123.78,Food,Model
+TXN100021,2026-07-08,upi/dominos pizza/order paid,47383.0,Food,0.9201,Failed,upi/dominos pizza/order paid,Food,Model
+TXN100022,2026-08-10,IKEA furniture shopping,46340.97,Shopping,0.9833,Settled,IKEA furniture shopping | Ref:38b84d11 | Amount: INR 46340.97,Shopping,Model
+TXN100023,2026-08-10,Petrol pump fuel payment,15310.75,Travel,0.9743,Settled,Petrol pump fuel payment | Ref:51e976ea | Amount: INR 15310.75,Travel,Model
+TXN100024,2026-08-07,Zerodha stock purchase,47573.45,Investment,0.9757,Pending,Zerodha stock purchase | Ref:59fc4785 | Amount: INR 47573.45,Investment,Model
+TXN100025,2026-07-04,RedBus bus ticket,48863.83,Travel,0.9716,Settled,RedBus bus ticket | Ref:25767c60 | Amount: INR 48863.83,Travel,Model
+TXN100026,2026-08-06,MMT HOTEL STAY HYDERABAD,29359.96,Travel,0.8631,Settled,MMT HOTEL STAY HYDERABAD,Travel,Model
+TXN100027,2026-07-04,PPF contribution,39386.46,Investment,0.9822,Pending,PPF contribution | Ref:a3ba4c89 | Amount: INR 39386.46,Investment,Model
+TXN100028,2026-07-15,HDFC home loan EMI,47243.42,EMI,0.9918,Settled,HDFC home loan EMI | Ref:ead34200 | Amount: INR 47243.42,EMI,Model
+TXN100029,2026-07-03,McDonald's meal payment,5141.69,Food,0.9734,Settled,McDonald's meal payment | Ref:742dccd9 | Amount: INR 5141.69,Food,Model
+TXN100030,2026-08-05,MakeMyTrip hotel booking,40900.09,Travel,0.9836,Settled,MakeMyTrip hotel booking | Ref:bfc48966 | Amount: INR 40900.09,Travel,Model
+TXN100031,2026-07-09,Petrol pump fuel payment,44551.4,Travel,0.9743,Settled,Petrol pump fuel payment | Ref:cca8da5a | Amount: INR 44551.4,Travel,Model
+TXN100032,2026-07-19,sovereign gold bond purchase,21073.12,Investment,0.7069,Settled,sovereign gold bond purchase,Investment,Model
+TXN100033,2026-08-04,MakeMyTrip hotel booking,24439.34,Travel,0.9836,Settled,MakeMyTrip hotel booking | Ref:bdd83087 | Amount: INR 24439.34,Travel,Model
+TXN100034,2026-07-08,SBI car loan EMI,47431.75,EMI,0.9923,Settled,SBI car loan EMI | Ref:96908495 | Amount: INR 47431.75,EMI,Model
+TXN100035,2026-08-06,McDonald's meal payment,25092.96,Food,0.9734,Pending,McDonald's meal payment | Ref:2b1a7571 | Amount: INR 25092.96,Food,Model
+TXN100036,2026-07-20,McDonald's meal payment,48601.14,Food,0.9734,Pending,McDonald's meal payment | Ref:87ffc671 | Amount: INR 48601.14,Food,Model
+TXN100037,2026-08-05,Ola cab fare,45503.97,Travel,0.9753,Settled,Ola cab fare | Ref:4e80d4af | Amount: INR 45503.97,Travel,Model
+TXN100038,2026-08-13,Petrol pump fuel payment,25524.59,Travel,0.9743,Settled,Petrol pump fuel payment | Ref:9e35c4d9 | Amount: INR 25524.59,Travel,Model
+TXN100039,2026-07-12,Bajaj Finserv EMI payment,36146.61,EMI,0.9867,Settled,Bajaj Finserv EMI payment | Ref:a363fc99 | Amount: INR 36146.61,EMI,Model
+TXN100040,2026-07-07,Personal loan EMI deduction,17144.92,EMI,0.9916,Settled,Personal loan EMI deduction | Ref:f0aabb98 | Amount: INR 17144.92,EMI,Model
+TXN100041,2026-08-07,restro bill payment pos,28645.98,Food,0.764,Settled,restro bill payment pos,Food,Model
+TXN100042,2026-07-13,Bajaj Finserv EMI payment,49398.27,EMI,0.9867,Settled,Bajaj Finserv EMI payment | Ref:e486ce16 | Amount: INR 49398.27,EMI,Model
+TXN100043,2026-07-24,NACH loan debit KOTAK,5052.04,EMI,0.8984,Settled,NACH loan debit KOTAK,EMI,Model
+TXN100044,2026-08-15,Swiggy order payment,40907.91,Food,0.9732,Settled,Swiggy order payment | Ref:f6e210fe | Amount: INR 40907.91,Food,Model
+TXN100045,2026-07-05,IKEA furniture shopping,16557.58,Shopping,0.9833,Settled,IKEA furniture shopping | Ref:8f13104f | Amount: INR 16557.58,Shopping,Model
+TXN100046,2026-08-06,IndiGo flight ticket,15571.42,Travel,0.9867,Settled,IndiGo flight ticket | Ref:5dd0f830 | Amount: INR 15571.42,Travel,Model
+TXN100047,2026-07-04,McDonald's meal payment,4928.88,Food,0.9734,Pending,McDonald's meal payment | Ref:2c85bdc8 | Amount: INR 4928.88,Food,Model
+TXN100048,2026-08-09,IRCTC train ticket booking,12484.74,Travel,0.9866,Settled,IRCTC train ticket booking | Ref:bd3e9588 | Amount: INR 12484.74,Travel,Model
+TXN100049,2026-07-14,Personal loan EMI deduction,18146.54,EMI,0.9916,Settled,Personal loan EMI deduction | Ref:b73fbc87 | Amount: INR 18146.54,EMI,Model
+TXN100050,2026-08-01,IRCTC train ticket booking,3216.36,Travel,0.9866,Settled,IRCTC train ticket booking | Ref:296edc4f | Amount: INR 3216.36,Travel,Model
+TXN100051,2026-08-13,MakeMyTrip hotel booking,47388.87,Travel,0.9836,Settled,MakeMyTrip hotel booking | Ref:b200423f | Amount: INR 47388.87,Travel,Model
+TXN100052,2026-08-04,Bajaj Finserv EMI payment,48848.28,EMI,0.9867,Settled,Bajaj Finserv EMI payment | Ref:5fd2125b | Amount: INR 48848.28,EMI,Model
+TXN100053,2026-07-28,PIZZA HUT TAKEAWAY 34470,38905.99,Food,0.891,Settled,PIZZA HUT TAKEAWAY 34470,Food,Model
+TXN100054,2026-07-30,Cafe coffee purchase at,8969.95,Food,0.973,Settled,Cafe coffee purchase at | Ref:7f71e0a0 | Amount: INR 8969.95,Food,Model
+TXN100055,2026-08-07,IRCTC train ticket booking,14032.15,Travel,0.9866,Settled,IRCTC train ticket booking | Ref:07b14f37 | Amount: INR 14032.15,Travel,Model
+TXN100056,2026-07-30,Bajaj Finserv EMI payment,27397.92,EMI,0.9867,Settled,Bajaj Finserv EMI payment | Ref:9f07cdc3 | Amount: INR 27397.92,EMI,Model
+TXN100057,2026-07-24,dinner at restaurant MUMBAI,15128.4,Food,0.9463,Settled,dinner at restaurant MUMBAI,Food,Model
+TXN100058,2026-07-12,Ola cab fare,719.17,Travel,0.9753,Settled,Ola cab fare | Ref:0b34fb9d | Amount: INR 719.17,Travel,Model
+TXN100059,2026-08-14,MakeMyTrip hotel booking,12674.67,Travel,0.9836,Settled,MakeMyTrip hotel booking | Ref:bdf2adc4 | Amount: INR 12674.67,Travel,Model
+TXN100060,2026-07-16,McDonald's meal payment,1465.45,Food,0.9734,Failed,McDonald's meal payment | Ref:8b30163e | Amount: INR 1465.45,Food,Model
+TXN100061,2026-07-06,Bajaj Finserv EMI payment,35138.9,EMI,0.9867,Settled,Bajaj Finserv EMI payment | Ref:c0ad9f27 | Amount: INR 35138.9,EMI,Model
+TXN100062,2026-08-06,Dominos pizza order,14876.61,Food,0.98,Settled,Dominos pizza order | Ref:7a54db81 | Amount: INR 14876.61,Food,Model
+TXN100063,2026-07-20,POS INDIGO AIRLINES AHMEDABAD,26354.79,Travel,0.8249,Settled,POS INDIGO AIRLINES AHMEDABAD,Travel,Model
+TXN100064,2026-07-22,Credit card EMI installment,47894.2,EMI,0.9905,Settled,Credit card EMI installment | Ref:404db81a | Amount: INR 47894.2,EMI,Model
+TXN100065,2026-07-29,Reliance Digital purchase,35051.42,Shopping,0.9802,Settled,Reliance Digital purchase | Ref:4449b76b | Amount: INR 35051.42,Shopping,Model
+TXN100066,2026-07-19,Amazon online shopping,46008.33,Shopping,0.9887,Failed,Amazon online shopping | Ref:40b50bdd | Amount: INR 46008.33,Shopping,Model
+TXN100067,2026-08-08,Fixed deposit investment,23659.19,Investment,0.9924,Failed,Fixed deposit investment | Ref:eeacccb5 | Amount: INR 23659.19,Investment,Model
+TXN100068,2026-07-05,Myntra clothing order,4312.14,Shopping,0.9795,Pending,Myntra clothing order | Ref:9341bf52 | Amount: INR 4312.14,Shopping,Model
+TXN100069,2026-07-08,Myntra clothing order,34447.35,Shopping,0.9795,Settled,Myntra clothing order | Ref:45daca7d | Amount: INR 34447.35,Shopping,Model

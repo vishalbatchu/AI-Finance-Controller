@@ -1,0 +1,11 @@
+Transaction_Text,Label,source
+Tanishq jewellery purchase | Ref:a1b2c3d4 | Amount: INR 45230.00,AMBIGUOUS,ambiguous_exception_test
+Bike loan EMI payment | Ref:e5f6a7b8 | Amount: INR 4500.00,AMBIGUOUS,ambiguous_exception_test
+BigBasket monthly order | Ref:c9d0e1f2 | Amount: INR 6820.45,AMBIGUOUS,ambiguous_exception_test
+Loan against securities EMI | Ref:12345abc | Amount: INR 8900.00,AMBIGUOUS,ambiguous_exception_test
+Payment to Sharma Enterprises | Ref:99887766 | Amount: INR 15000.00,AMBIGUOUS,ambiguous_exception_test
+Airport duty free purchase | Ref:aabbccdd | Amount: INR 3200.00,AMBIGUOUS,ambiguous_exception_test
+UPI/9876543210@paytm/transfer,AMBIGUOUS,ambiguous_exception_test
+Simpl BNPL installment payment | Ref:eeff0011 | Amount: INR 2100.00,AMBIGUOUS,ambiguous_exception_test
+Property booking token amount | Ref:22334455 | Amount: INR 50000.00,AMBIGUOUS,ambiguous_exception_test
+Cashback credit reversal | Ref:66778899 | Amount: INR 340.00,AMBIGUOUS,ambiguous_exception_test

@@ -1,0 +1,101 @@
+Transaction_Text,Expected,Predicted,Confidence,Exception
+UPI/SWIGGY/MEAL/8821,Food,Food,0.8978076030573733,False
+upi-zomato-dinner-paid,Food,Food,0.8795427215532974,False
+POS KFC HYDERABAD,Food,Food,0.4454228511095712,True
+MCD meal txn,Food,Food,0.7071781726223783,False
+DOMINOS PIZZA ORDER,Food,Food,0.9776606066013098,False
+PIZZA HUT TAKEAWAY,Food,Food,0.6663609671779405,False
+STARBUCKS CAFE BILL,Food,Food,0.8077124970622487,False
+CCD COFFEE PAYMENT,Food,Food,0.8201694586098786,False
+restaurant qr payment,Food,Food,0.9160465741526714,False
+food delivery completed,Food,Food,0.7073061614660949,False
+grocery delivery instamart,Food,Food,0.8177992197600695,False
+BIGBASKET MONTHLY ORDER,Food,Food,0.4799809914009488,True
+ZEpto groceries,Food,Food,0.6555729091245018,False
+blinkit food order,Food,Food,0.7355035168651974,False
+canteen lunch payment,Food,Food,0.7076433838502028,False
+bakery purchase,Food,Food,0.6291948613551777,False
+dinner at restaurant,Food,Food,0.9835083800844213,False
+meal expense paid by card,Food,Food,0.6983850354610485,False
+food court transaction,Food,Food,0.6370549438866351,False
+supermarket grocery bill,Food,Food,0.8363350229335168,False
+UPI/UBERINDIA/UTR9284736/CAB RIDE,Travel,Travel,0.7939280430639828,False
+Ola ride fare,Travel,Travel,0.9542637955313322,False
+RAPIDO BIKE TAXI PAYMENT,Travel,Travel,0.6781094728420037,False
+POS INDIGO AIRLINES,Travel,Travel,0.6696008874012259,False
+INDIGO FLIGHT TICKET,Travel,Travel,0.9835928654606207,False
+AIR INDIA AIRFARE,Travel,Travel,0.7836545183301427,False
+AKASA AIR TICKET,Travel,Travel,0.8077306375492107,False
+IRCTC PNR4471,Travel,Travel,0.47420694434829824,True
+railway reservation,Travel,Travel,0.7755059572934754,False
+redbus bus booking,Travel,Travel,0.947278501244814,False
+MMT HOTEL STAY,Travel,Travel,0.7694741191474768,False
+MAKEMYTRIP RESERVATION,Travel,Travel,0.8506981940785584,False
+OYO HOTEL PAYMENT,Travel,Travel,0.762647126710961,False
+airport cab fare,Travel,Travel,0.9483711118957929,False
+metro travel recharge,Travel,Travel,0.687100468429557,False
+IOCL FUEL STATION,Travel,Travel,0.75274244454685,False
+petrol pump payment,Travel,Travel,0.8932375209311325,False
+taxi fare payment,Travel,Travel,0.8257443703197966,False
+travel booking confirmed,Travel,Travel,0.720488038240272,False
+hotel accommodation charge,Travel,Travel,0.7774933351416028,False
+NACH DR HOMELOAN HDFC,EMI,EMI,0.4185050281420917,True
+home loan repayment debit,EMI,EMI,0.8759631913117496,False
+SBI CAR LOAN EMI DEDUCTED,EMI,EMI,0.9549603806375406,False
+bike finance monthly payment,EMI,EMI,0.6626808746951974,False
+two wheeler loan installment,EMI,EMI,0.9495196763029506,False
+CC EMI DEBIT,EMI,EMI,0.9559185752177946,False
+credit card installment,EMI,EMI,0.9639331386274039,False
+PERSONAL LOAN AUTODEBIT,EMI,EMI,0.7986107886877492,False
+BAJAJ FINANCE INSTALLMENT,EMI,EMI,0.9544388309751419,False
+consumer durable installment,EMI,EMI,0.7749539459537961,False
+loan payment due,EMI,EMI,0.7854138759017184,False
+mortgage installment,EMI,EMI,0.9345938551296357,False
+education loan repayment,EMI,EMI,0.6403120434857134,False
+BNPL repayment,EMI,EMI,0.4554339920932542,True
+SIMPL INSTALLMENT,EMI,EMI,0.8624613461995505,False
+paylater monthly installment,EMI,EMI,0.8494870553666937,False
+NACH loan debit,EMI,EMI,0.67718321927602,False
+ECS loan installment,EMI,EMI,0.9897865592508849,False
+vehicle finance repayment,EMI,EMI,0.5481363688888332,True
+monthly loan deduction,EMI,EMI,0.6733839533499231,False
+IMPS/ZERODHA BROKING/EQUITY DELIVERY,Investment,Investment,0.7755642761244044,False
+UPI GROWW SIP,Investment,Investment,0.6104960892041565,False
+MF SIP AUTO DEBIT,Investment,Investment,0.8702780404018133,False
+mutual fund purchase,Investment,Investment,0.8501955154736689,False
+FD BOOKING,Investment,Investment,0.8292685441816183,False
+fixed deposit investment,Investment,Investment,0.9896144546977459,False
+DEMAT STOCK BUY,Investment,Investment,0.5552769433315686,True
+UPSTOX EQUITY PURCHASE,Investment,Investment,0.7181304947213745,False
+ANGEL ONE SHARES,Investment,Investment,0.5027985258389038,True
+ETF INVESTMENT,Investment,Investment,0.9814625716383963,False
+NPS CONTRIBUTION,Investment,Investment,0.8806368604605744,False
+PPF A/C CONTRIBUTION,Investment,Investment,0.943913265631977,False
+bond subscription,Investment,Investment,0.5287656944688099,True
+government bond purchase,Investment,Investment,0.5944747796112182,True
+stock market investment,Investment,Investment,0.8784844640885598,False
+equity delivery debit,Investment,Investment,0.7437169803138332,False
+portfolio investment,Investment,Investment,0.7745073481826922,False
+retirement contribution,Investment,Investment,0.7299073038281109,False
+recurring deposit investment,Investment,Investment,0.8754282851679059,False
+securities purchase,Investment,Investment,0.6268041257368328,False
+POS AMAZON.IN MUMBAI IN,Shopping,Shopping,0.6934956094096981,False
+AMAZON ONLINE ORDER,Shopping,Shopping,0.9091839452595218,False
+POS CROMA ELECTRONICS,Shopping,Shopping,0.7195233388942734,False
+FLIPKART ORDER ID,Shopping,Shopping,0.8278594179327506,False
+MYNTRA FASHION ORDER,Shopping,Shopping,0.8933420367323007,False
+AJIO CLOTHING PURCHASE,Shopping,Shopping,0.8528378198082717,False
+MEESHO ORDER,Shopping,Shopping,0.6923253867567799,False
+RELIANCE DIGITAL ELECTRONICS,Shopping,Shopping,0.9644181091564002,False
+TITAN RETAIL PURCHASE,Shopping,Shopping,0.8229440910306713,False
+TANISHQ JEWELLERY,Shopping,Shopping,0.516435205163573,True
+IKEA HOME FURNISHING,Shopping,Shopping,0.6803933624468192,False
+DECATHLON SHOPPING,Shopping,Shopping,0.7845445860662983,False
+NYKAA COSMETICS ORDER,Shopping,Shopping,0.6872145206778512,False
+retail store card payment,Shopping,Shopping,0.5630059798716297,True
+electronics purchase,Shopping,Shopping,0.9533101038277105,False
+clothing purchase,Shopping,Shopping,0.9039016437285515,False
+home appliance purchase,Shopping,Shopping,0.7436852683907846,False
+mobile phone purchase,Shopping,Shopping,0.7120212115805451,False
+laptop purchase,Shopping,Shopping,0.7252097008677393,False
+online ecommerce order,Shopping,Shopping,0.826531289666988,False

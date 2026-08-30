@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Finance Controller</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">RAZORPAY AI BUILDATHON · FINANCE OPS</p>
+        <h1>AI Finance Controller</h1>
+        <p class="subhead">Settlement transaction review and model-assisted finance operations.</p>
+      </div>
+      <div class="top-actions">
+        <div class="live-indicator"><span></span> LIVE BATCH</div>
+        <button id="dashboardBtn" class="dashboard-btn" type="button">DASHBOARD</button>
+      </div>
+    </header>
+
+    <!-- FRONT PAGE: ONLY THE TRANSACTION TABLE -->
+    <section id="transactionsPage" class="section front-table-section">
+      <div class="section-heading table-heading">
+        <div>
+          <span class="section-kicker">SETTLEMENT BATCH</span>
+          <h2>All transactions</h2>
+        </div>
+        <div class="filters">
+          <select id="categoryFilter">
+            <option value="">All categories</option>
+            <option>Food</option><option>Travel</option><option>EMI</option>
+            <option>Investment</option><option>Shopping</option>
+          </select>
+          <select id="statusFilter">
+            <option value="">All statuses</option>
+            <option>Settled</option><option>Pending</option><option>Failed</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-key="transaction_id">ID</th>
+              <th data-key="date">DATE</th>
+              <th data-key="counterparty">COUNTERPARTY</th>
+              <th data-key="amount">AMOUNT</th>
+              <th data-key="category">CATEGORY</th>
+              <th data-key="category_confidence">CONFIDENCE</th>
+              <th data-key="status">STATUS</th>
+            </tr>
+          </thead>
+          <tbody id="transactionsBody"></tbody>
+        </table>
+      </div>
+      <div class="table-footer" id="tableFooter"></div>
+    </section>
+
+    <!-- DASHBOARD: THE OTHER FIVE SECTIONS -->
+    <section id="dashboardPage" class="dashboard-page hidden">
+
+      <div class="dashboard-header">
+        <div>
+          <span class="section-kicker">FINANCE OPERATIONS</span>
+          <h2>Controller Dashboard</h2>
+          <p>Agent performance, exceptions, Q&A, classification mix, audit trail and batch re-processing.</p>
+        </div>
+        <button id="backToTransactions" class="secondary-btn" type="button">← TRANSACTIONS</button>
+      </div>
+
+      <!-- 01 SUMMARY -->
+      <section class="dashboard-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">01 · BATCH OVERVIEW</span>
+            <h2>Summary</h2>
+          </div>
+        </div>
+
+        <div class="summary">
+          <div class="metric hero-metric">
+            <span class="label">MATCH RATE</span>
+            <strong id="matchRate">—</strong>
+            <small>transactions confidently classified</small>
+          </div>
+          <div class="metric">
+            <span class="label">TRANSACTIONS</span>
+            <strong id="totalTransactions">—</strong>
+            <small>in current batch</small>
+          </div>
+          <div class="metric">
+            <span class="label">TOTAL AMOUNT</span>
+            <strong id="totalAmount">—</strong>
+            <small>INR processed</small>
+          </div>
+          <div class="metric">
+            <span class="label">STATUS</span>
+            <div class="status-line">
+              <span>Settled <b id="settledCount">—</b></span>
+              <span>Pending <b id="pendingCount">—</b></span>
+              <span>Failed <b id="failedCount">—</b></span>
+            </div>
+            <small>settlement state</small>
+          </div>
+          <div class="metric exception-metric">
+            <span class="label">EXCEPTIONS</span>
+            <strong id="exceptionCount">—</strong>
+            <small>below 60% confidence</small>
+          </div>
+        </div>
+
+        <div class="ops-grid">
+          <div class="ops-panel">
+            <div class="panel-title">AGENT ACTIVITY</div>
+            <div id="activityLog" class="activity-log"></div>
+          </div>
+          <div class="ops-panel">
+            <div class="panel-title">MODEL PERFORMANCE</div>
+            <div class="performance-head">
+              <strong id="stressAccuracy">—</strong>
+              <span>stress-test accuracy</span>
+            </div>
+            <div id="performanceBars" class="performance-bars"></div>
+            <div class="performance-foot" id="performanceFoot"></div>
+          </div>
+        </div>
+
+        <div class="resolution-strip">
+          <div><span>AI RESOLVED</span><strong id="autoResolved">—</strong></div>
+          <div><span>HUMAN RESOLVED</span><strong id="manualResolved">—</strong></div>
+          <div><span>OPEN EXCEPTIONS</span><strong id="unresolved">—</strong></div>
+          <div><span>FEEDBACK READY</span><strong id="feedbackCount">—</strong></div>
+        </div>
+
+        <div class="learning-panel">
+          <div>
+            <span class="panel-title">SELF-LEARNING STATUS</span>
+            <strong id="learningStatus">AUTOMATIC LEARNING: ON</strong>
+            <small>Every verified admin correction is added to the training set and immediately used to build the next model version.</small>
+          </div>
+          <div class="learning-meta">
+            <div><span>MODEL VERSION</span><b id="modelVersion">baseline</b></div>
+            <div><span>HUMAN EXAMPLES LEARNED</span><b id="humanExamplesLearned">0</b></div>
+            <div><span>TRAINING ROWS</span><b id="trainingRows">0</b></div>
+            <div><span>LAST LEARNED</span><b id="lastLearned">—</b></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02 EXCEPTIONS -->
+      <section class="dashboard-section exceptions-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">02 · REVIEW QUEUE</span>
+            <h2>Exceptions</h2>
+          </div>
+          <p>Low-confidence classifications are surfaced instead of silently treated as correct.</p>
+        </div>
+        <div id="exceptionsList" class="exceptions-list"></div>
+        <div id="exceptionUpdateMessage" class="exception-update-message"></div>
+
+        <div class="audit-block">
+          <div class="panel-title">AUDIT / HUMAN FEEDBACK</div>
+          <div id="feedbackList" class="feedback-list"></div>
+          <div class="audit-actions">
+            <button id="exportFeedback" class="secondary-btn" type="button">EXPORT FEEDBACK</button>
+            <button id="retrainBtn" class="dark-btn" type="button">RETRAIN NOW WITH FEEDBACK</button>
+          </div>
+          <div id="retrainMessage" class="upload-message"></div>
+        </div>
+      </section>
+
+      <!-- 03 QA -->
+      <section class="dashboard-section qa-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">03 · DATA-GROUNDED QA</span>
+            <h2>Ask the controller</h2>
+          </div>
+          <p>Answers are computed from the current settlement batch.</p>
+        </div>
+        <div class="suggested-questions" id="suggestedQuestions">
+          <button type="button" data-q="What is the current match rate?">Match rate?</button>
+          <button type="button" data-q="What transactions need review?">What needs review?</button>
+          <button type="button" data-q="What is the total pending amount?">Pending amount?</button>
+          <button type="button" data-q="Show the 5 largest transactions">Largest 5?</button>
+          <button type="button" data-q="Which category has the highest spend?">Highest category?</button>
+          <button type="button" data-q="How much was manually corrected?">Manual corrections?</button>
+        </div>
+        <form id="qaForm" class="qa-form">
+          <input id="question" autocomplete="off"
+            placeholder="e.g. What is the total amount for Food?" />
+          <button type="submit">ASK</button>
+        </form>
+        <div id="qaAnswer" class="qa-answer hidden"></div>
+      </section>
+
+      <!-- 04 CATEGORY BREAKDOWN -->
+      <section class="dashboard-section breakdown-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">04 · CLASSIFICATION MIX</span>
+            <h2>Category breakdown</h2>
+          </div>
+          <p>Transaction count by predicted category.</p>
+        </div>
+        <div id="breakdown" class="breakdown"></div>
+      </section>
+
+      <!-- 05 UPLOAD -->
+      <section class="dashboard-section upload-section">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">05 · RE-RUN</span>
+            <h2>Upload new transactions</h2>
+          </div>
+          <p>Upload a CSV to classify a fresh batch with the trained model.</p>
+        </div>
+        <form id="uploadForm" class="upload-form">
+          <label class="file-picker">
+            <input type="file" id="csvFile" accept=".csv,text/csv">
+            <span id="fileName">Choose CSV</span>
+          </label>
+          <button type="submit">CLASSIFY &amp; REFRESH</button>
+        </form>
+        <p class="upload-note">Expected text column: <code>Transaction_Text</code>. Optional columns: <code>transaction_id</code>, <code>date</code>, <code>counterparty</code>, <code>amount</code>, <code>status</code>.</p>
+        <div id="uploadMessage" class="upload-message"></div>
+      </section>
+
+    </section>
+
+    <footer>
+      <span>AI FINANCE CONTROLLER</span>
+      <span>TF-IDF + LOGISTIC REGRESSION · CONFIDENCE THRESHOLD 60%</span>
+    </footer>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
