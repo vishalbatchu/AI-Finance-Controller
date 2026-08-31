@@ -21,3 +21,26 @@ Some correct predictions remain below the 60% confidence threshold. Those are in
 ## Important
 
 The Flask app now uses the exact same text normalization used during training. This is important: training and upload-time classification must preprocess transaction text consistently.
+
+
+## Extreme robustness update
+
+The latest model was retrained with a larger adversarial-style augmentation set covering:
+
+- casing changes and mixed casing
+- typos, character swaps, dropped/repeated characters
+- UPI/POS/NEFT/IMPS/NACH/ECS-style prefixes
+- separators, reference IDs and UTR-like numbers
+- reordered words and extra banking noise
+- abbreviations and shortened narrations
+- category-confusion patterns and short descriptions
+
+### Evaluation
+
+- Training corpus after augmentation: **2,478 records**
+- Separate unseen extreme holdout: **500 records (100 per category)**
+- Extreme holdout accuracy: **99.6%**
+- Original 100-case stress suite after retraining: **100%**
+- Confidence threshold remains **60%**, so uncertain predictions can still be sent to human review.
+
+The 500-case holdout is kept separate from training to reduce the risk of reporting memorized training accuracy.

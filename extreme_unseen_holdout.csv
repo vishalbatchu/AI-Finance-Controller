@@ -1,0 +1,501 @@
+Transaction_Text,Expected,source
+Ref_9558722731*CAFe*KFc*pAYMEnt,Food,extreme_unseen_holdout
+DR zomato food UPI order,Food,extreme_unseen_holdout
+NACH Swiggy Dinner Order:88569719,Food,extreme_unseen_holdout
+bakery food order 57142106 CARD,Food,extreme_unseen_holdout
+UTR 1451064525 starbucks DInNer ORder/39277824 ONLINE,Food,extreme_unseen_holdout
+BANK RESTAURANT DINNER ORDER:35186095 PAYMENT,Food,extreme_unseen_holdout
+ID_772898730 TXN cafe meal bill,Food,extreme_unseen_holdout
+UTR/8497185298 kfc dNneR order PAYMENT,Food,extreme_unseen_holdout
+ID-9329377573 cafe payment restaurant,Food,extreme_unseen_holdout
+UTR CHARGE 8252343857 grocery*meal*bill_44885325,Food,extreme_unseen_holdout
+ordEr ECS zOmaTo dInnER,Food,extreme_unseen_holdout
+OrdEr BLINkItd iNNER TXN,Food,extreme_unseen_holdout
+purchase-kfc-grocery-MERCHANT-ECS,Food,extreme_unseen_holdout
+BILL MEAL INSTAMART MERCHANT,Food,extreme_unseen_holdout
+POS ID_4376974288 Zomato reSTAuraNt PaYMENt DEBIT,Food,extreme_unseen_holdout
+TXN supermarket restaurant payment PAYMENT,Food,extreme_unseen_holdout
+ID/806796900_supermarKet_dinnEr_orDer_96538297,Food,extreme_unseen_holdout
+Ref 1576612861 ccd food order_275515,Food,extreme_unseen_holdout
+BANK order food bigbasket*70801938,Food,extreme_unseen_holdout
+Starbucks-Grocery-Purchase 5599338 REF,Food,extreme_unseen_holdout
+UTR*4530779352 IMPS CAFE DINNER ORDER,Food,extreme_unseen_holdout
+Bigbasket Meal Bill DEBIT,Food,extreme_unseen_holdout
+POS resTAurant baKEyR payment,Food,extreme_unseen_holdout
+CANTEEN GROCERY PURCHASE/52225987,Food,extreme_unseen_holdout
+Ref 8296332676 swiggy_grocery_purchase:3187417,Food,extreme_unseen_holdout
+Ref 8982279262 SUCCESS purchase canteen grocery:96763864,Food,extreme_unseen_holdout
+TXN mcdonalds cafep ayment ONLINE,Food,extreme_unseen_holdout
+instaamrt restaurant payment 88439200,Food,extreme_unseen_holdout
+kfc payment:78809846 Ref*4883612740 restaurant DEBIT,Food,extreme_unseen_holdout
+bigBasKet DINner ordER ONLINE,Food,extreme_unseen_holdout
+ECS DUNZO CAFE PAYMENT*47468118 REF,Food,extreme_unseen_holdout
+TXN instamart meal bill PAID,Food,extreme_unseen_holdout
+ID*2328348923 MCDONALDS FOOD ORDER PAYMENT,Food,extreme_unseen_holdout
+cafe payment dunzo CARD,Food,extreme_unseen_holdout
+Id-6020854831 Impsz Omato Food Order,Food,extreme_unseen_holdout
+IMPS CAFE MEAL BILL:33242560,Food,extreme_unseen_holdout
+UTR*3450354897 purchase dominos grocery ACCOUNT,Food,extreme_unseen_holdout
+Ref-6131601995 REsTaurant-RocERY-purchase,Food,extreme_unseen_holdout
+ID/5738778268 restaurant meal bill,Food,extreme_unseen_holdout
+ID-579418484 piizzahut restaurant payment,Food,extreme_unseen_holdout
+Ref-2025021129 TXN swIggy pURcHASe grOcEry,Food,extreme_unseen_holdout
+CARD NEFT meal BIlL StARbucKS,Food,extreme_unseen_holdout
+grocery grocery purchase*27399809 ORDER,Food,extreme_unseen_holdout
+ID*6711501703 ccd grocery purchase TXN,Food,extreme_unseen_holdout
+BANK ID_6030802848*bakery*cafe*payment:13778369,Food,extreme_unseen_holdout
+Ecs Id 4154484033 Instamart*Grocery*Purchase,Food,extreme_unseen_holdout
+Foodcourt Dinner Order Merchant*10359133,Food,extreme_unseen_holdout
+Restaurant Cafe Payment,Food,extreme_unseen_holdout
+caneten_restaurant_payment-50260486_TXN,Food,extreme_unseen_holdout
+cafe pizzahut NACH payment ORDER,Food,extreme_unseen_holdout
+Dinner Order Ref 1904631209 Ecs Starbucks,Food,extreme_unseen_holdout
+Ref 8169317240 IMPS bigbasket cafe payment*24963423 ACCOUNT,Food,extreme_unseen_holdout
+Ref 5024265502 IMPS BIGbasKet*mEal*Bill,Food,extreme_unseen_holdout
+BANK grocery/food/order,Food,extreme_unseen_holdout
+bill meal blinkit REF,Food,extreme_unseen_holdout
+BANK ID/5459601599 Zomato Cafe Payment-41426159,Food,extreme_unseen_holdout
+Ref/9351759997 grocery retsaurant purchase:33148249,Food,extreme_unseen_holdout
+NACH Mcdonalda Meal Bill/16160155,Food,extreme_unseen_holdout
+ECS pizzahut cfae payment,Food,extreme_unseen_holdout
+UTR-8173244131:zomato:food:order 91620674 REF,Food,extreme_unseen_holdout
+BANK UTR_9739580715 bakery food order,Food,extreme_unseen_holdout
+UPI UTR/9013409235 oRdEr Cafe diNNwR,Food,extreme_unseen_holdout
+PURCHASE_21800684_GROCERY_TXN_PIZZAHUT,Food,extreme_unseen_holdout
+Pizzahut Food Order 72800690,Food,extreme_unseen_holdout
+BAANK caFe mEal Bill,Food,extreme_unseen_holdout
+bigbasket_food_ordeer:5989976,Food,extreme_unseen_holdout
+UTR_4199073968 ECS bakery restaurant payment,Food,extreme_unseen_holdout
+Restaurant Payment_850623 Cafe,Food,extreme_unseen_holdout
+8116843294 grocery*food*order:15443740 Ref,Food,extreme_unseen_holdout
+NACH PIZZAHUT FOOD ORDER_69620710,Food,extreme_unseen_holdout
+dunzo grocery purchaase-11431861,Food,extreme_unseen_holdout
+UTR-1175403423 bIgbasket cafe paYent*23910105,Food,extreme_unseen_holdout
+Zomato*Meaal*Bill MERCHANT,Food,extreme_unseen_holdout
+NACH FooDCOurt restAUranT payMeNt,Food,extreme_unseen_holdout
+UTR_9897578505:NACH:pizzahut:caf:epayment:CHARGE,Food,extreme_unseen_holdout
+ID 4546246003 order/instamart/food,Food,extreme_unseen_holdout
+REF/6598876483_SuPermARket_dINneR_orDER/40415349,Food,extreme_unseen_holdout
+Ref/823317222 CAFE GROCERY REF PAYMENT,Food,extreme_unseen_holdout
+ccd-meal-bill ACCOUNT:99054544,Food,extreme_unseen_holdout
+ECS Ref:8705870321 gRoceRy dOmInos PurchaSE/34269809,Food,extreme_unseen_holdout
+Bill:Supermarket:Meal CHARGE,Food,extreme_unseen_holdout
+GROCERY PURCHASE FOODCOURT,Food,extreme_unseen_holdout
+ID-6687345779 starbucks/cafe/payment/53236476,Food,extreme_unseen_holdout
+NACH Fod Order Kfc,Food,extreme_unseen_holdout
+grocwry cafe purchase_79716441,Food,extreme_unseen_holdout
+Ref-4448605808 zepto restaurant payment 90772138,Food,extreme_unseen_holdout
+ID/8040447869/NEF/CaNteen/CafE/payment,Food,extreme_unseen_holdout
+UPI payment-45983710 dominos acfe MERCHANT,Food,extreme_unseen_holdout
+Utr-2624440325 Zomato Grocery Purchase,Food,extreme_unseen_holdout
+ID 4200649560 Bigbasket Meal Bill,Food,extreme_unseen_holdout
+NACH bAKery DinNeR oRder_30215287,Food,extreme_unseen_holdout
+Ref:9021497952 dinner order POS dunzo REF:56912654,Food,extreme_unseen_holdout
+BANK zomato cafe payment DR,Food,extreme_unseen_holdout
+Ref cafe dinnre order 9408110750,Food,extreme_unseen_holdout
+Ref:4029049959 Dinner Order Dunzo MERCHANT,Food,extreme_unseen_holdout
+instamart restaurant UTR-6073430183 paynent,Food,extreme_unseen_holdout
+ZEPT*OGROCERY*PURCHASE*SUCCESS,Food,extreme_unseen_holdout
+Ref/3420245749-Payment-Restaurant-Cafe-34443377,Food,extreme_unseen_holdout
+ID:7708475509*grocery*meal*bill,Food,extreme_unseen_holdout
+kfC meal Bill PAID,Food,extreme_unseen_holdout
+UTR*3585635700 HOTEL AIRINIDA BOOKING MERCHANT,Travel,extreme_unseen_holdout
+Uber/Travel/Payment,Travel,extreme_unseen_holdout
+UTR/8032692621 airindia flight ticket_54247790,Travel,extreme_unseen_holdout
+Ref 9779973322 IMPS akasa ticket rai ACCOUNT,Travel,extreme_unseen_holdout
+Ola Flight Ticket/99391386C OMPLETED,Travel,extreme_unseen_holdout
+Ticket Fuel Rail,Travel,extreme_unseen_holdout
+Ref_1069164224 UPI Iocl Flight Ticket ACCOUNT,Travel,extreme_unseen_holdout
+POS Makemytrip Fuel Payment,Travel,extreme_unseen_holdout
+BANK:UTR:9242237061:irctc:ravel:payment 61826948,Travel,extreme_unseen_holdout
+REF*3822893141 olA fuEl pAyment,Travel,extreme_unseen_holdout
+NEFT taxi-travel-payment TXN UTR:7290350423,Travel,extreme_unseen_holdout
+Ref-9822662170 fuel airport payment/17924650,Travel,extreme_unseen_holdout
+UPI INDIGO FUEL PAYMENT:12182540 MERCHANT,Travel,extreme_unseen_holdout
+NEFT UTR/1401407804 metro flight ticket/28071476,Travel,extreme_unseen_holdout
+UTR_7928166615 RAILWAY TRAVEL PAYMENT/88439231,Travel,extreme_unseen_holdout
+ECS/FuEl/raIl/tiCket,Travel,extreme_unseen_holdout
+BANK REDBUS*FLIGHT**TICKET/64063783,Travel,extreme_unseen_holdout
+UPI Ref:88695203 taXI hotlE bookInG,Travel,extreme_unseen_holdout
+BANK PAYYMENT FUEL RAPIDO COMPLETED,Travel,extreme_unseen_holdout
+UPI Utr/1972578683 Booking Cab Fare/4312171,Travel,extreme_unseen_holdout
+UPI TAXI BOOKING HOTLE ORDER,Travel,extreme_unseen_holdout
+NEFT:REDBUS:CAB:FARE-64270364 ACCOUNT,Travel,extreme_unseen_holdout
+INDIGO/TRAVEL/PAYMETN_56771526,Travel,extreme_unseen_holdout
+ID:1791307739 airport rail ticket_91708207,Travel,extreme_unseen_holdout
+NACH Id/3531985080/Fuel/Flight/Tiicket,Travel,extreme_unseen_holdout
+CHARGE cab fare ID-9125849374 oyo,Travel,extreme_unseen_holdout
+rAiilWaY cAb FARe,Travel,extreme_unseen_holdout
+Ref*3147990154 UPI taxi hoetl booking ONLINE,Travel,extreme_unseen_holdout
+OLA FLIGHHT TICKET,Travel,extreme_unseen_holdout
+TXN AIRINDIA/CAB/FARE,Travel,extreme_unseen_holdout
+RAPIDO*FLIGHT*TICKET*66190751,Travel,extreme_unseen_holdout
+ID_1106485273 uber:travel:payment:93089641 TXN,Travel,extreme_unseen_holdout
+UTR 4461611807 POS fare cab ooy*90397199,Travel,extreme_unseen_holdout
+IMPS iyo payment fuel 29180420 CARD,Travel,extreme_unseen_holdout
+CAB METRO FARE,Travel,extreme_unseen_holdout
+booking_rail_ticket REF,Travel,extreme_unseen_holdout
+Id/295728512 Petrol Rail Ticket/20013897 Dr,Travel,extreme_unseen_holdout
+ID*9578133707 taxi hotel booking 25273613,Travel,extreme_unseen_holdout
+POS Ref 5229119915 tax*flight*ticket PAYMENT,Travel,extreme_unseen_holdout
+rail ticket iocl SUCCESS,Travel,extreme_unseen_holdout
+Txn Rail Ticket Goibibo,Travel,extreme_unseen_holdout
+payment*37647370:ola:ACCOUNT:fuel,Travel,extreme_unseen_holdout
+raiLwy HOTEl bOokiNg-78668101,Travel,extreme_unseen_holdout
+UTR-1813078064_fuel_rail_ticket,Travel,extreme_unseen_holdout
+UTR_3983240225 OLA FUEL PAYMENT,Travel,extreme_unseen_holdout
+UTR-1275113011 TICKET RAPIDO RAIL ACCOUNT/7495486,Travel,extreme_unseen_holdout
+TXN tai travel payment DR_23590676,Travel,extreme_unseen_holdout
+ID 4360902694 ticket flight iocl,Travel,extreme_unseen_holdout
+Iocl Flight Ticket Card,Travel,extreme_unseen_holdout
+Imps Travel Payment*32150453 Akasa,Travel,extreme_unseen_holdout
+booking-flight-ticket-BANK,Travel,extreme_unseen_holdout
+NEFT indigo cab fare:48166743,Travel,extreme_unseen_holdout
+UTR/985556586 iocl railt icket,Travel,extreme_unseen_holdout
+Ref_647508203 fuel rial ticket SUCCESS,Travel,extreme_unseen_holdout
+UPI redbus*flight*ticket PAID-65568845,Travel,extreme_unseen_holdout
+ECS redBus RaiL tiCKeT:39743891,Travel,extreme_unseen_holdout
+BANK ID:6545542679 REDBUS TRAVEL PAYMENT,Travel,extreme_unseen_holdout
+AIRINDIA*FUEL*PAYMENT,Travel,extreme_unseen_holdout
+airrindia/fuel/payment:41230370,Travel,extreme_unseen_holdout
+flight irctc ticket,Travel,extreme_unseen_holdout
+Ref 6030354209 IMPS redbus fuel payment,Travel,extreme_unseen_holdout
+travel 14363805 fuel payment,Travel,extreme_unseen_holdout
+TXN fuel airindia payment,Travel,extreme_unseen_holdout
+BANK ubER fuEl paYment,Travel,extreme_unseen_holdout
+ola-fuel-payment CARD,Travel,extreme_unseen_holdout
+ID-7018767505 NEFT metro:travel:payment_7195133,Travel,extreme_unseen_holdout
+Ref*7498247125/fuel/payment/railway/DEBIT,Travel,extreme_unseen_holdout
+POS payment travel indigo,Travel,extreme_unseen_holdout
+hotel UPI Ref/6889883908 iocl booking,Travel,extreme_unseen_holdout
+payment BANK fuel redbus DR,Travel,extreme_unseen_holdout
+Ref/9269300489 Metro Fuel Payment,Travel,extreme_unseen_holdout
+petrol rail ticket 97649871,Travel,extreme_unseen_holdout
+UTR*4353784782*POS*flight*ticket*iocl,Travel,extreme_unseen_holdout
+REF-7070224239/AIRPORT/FLIGHT/TICKET*48989060,Travel,extreme_unseen_holdout
+AIriNdia_fUel_pAyment_24527072 ORDER,Travel,extreme_unseen_holdout
+GOIBIBO RAIL TICKET/28907679,Travel,extreme_unseen_holdout
+Ref*608765550 FARE CAB GOIBIBO-45084056,Travel,extreme_unseen_holdout
+COMPLETED/58921065-booking-TXN-rail-ticket,Travel,extreme_unseen_holdout
+ECS/booking/travel/payment,Travel,extreme_unseen_holdout
+BANK ID*388652726 rail ticket bookimg:61272152,Travel,extreme_unseen_holdout
+airindia/rail/tickeet ACCOUNT:30548555,Travel,extreme_unseen_holdout
+UTR_9181252313 meetro cab fare CARD,Travel,extreme_unseen_holdout
+ID 1202850592 MaKemYtriP hotel bOOKng,Travel,extreme_unseen_holdout
+Uber Payment Ttravel Id:2291652058,Travel,extreme_unseen_holdout
+Ref:1912001331 uber travel payment,Travel,extreme_unseen_holdout
+UPI paayment ola travel,Travel,extreme_unseen_holdout
+airiindia-flight-ticket,Travel,extreme_unseen_holdout
+POS tikcet*goibibo*rail ORDER,Travel,extreme_unseen_holdout
+NACH redBUS_fligHt_tiCkEt,Travel,extreme_unseen_holdout
+mAKEMyTRip/FAre/PAYMENT/caB,Travel,extreme_unseen_holdout
+indigo travel payment DEBIT,Travel,extreme_unseen_holdout
+Ref/6997068918_rapido_hotel_booking_SUCCESS_51676480,Travel,extreme_unseen_holdout
+uber fuel payment CARD,Travel,extreme_unseen_holdout
+UPI UTR-3021280195 Metro Fuel Payment_96495132 COMPLETED,Travel,extreme_unseen_holdout
+Ref-7315590707/redbus/flight/ticket*89658340/ONLINE,Travel,extreme_unseen_holdout
+Neft-Rapido-Fuel-Payment PAID,Travel,extreme_unseen_holdout
+goibibo*IMPS*fare*cab,Travel,extreme_unseen_holdout
+airindia travelp ayment/33919165,Travel,extreme_unseen_holdout
+TRAVEL INDIGO PAYMENT,Travel,extreme_unseen_holdout
+oyo/flight/ticket,Travel,extreme_unseen_holdout
+educationloan:installment:deduction-41070287,EMI,extreme_unseen_holdout
+Upi Simpl Emi Ref_342650681 Payment*13511433,EMI,extreme_unseen_holdout
+ECS vehiclefinance:loan:installment,EMI,extreme_unseen_holdout
+Creditcard Loan Payment/41598503,EMI,extreme_unseen_holdout
+BANK Ref*3349753437*vehilefinance*monthly*repayment 13320378,EMI,extreme_unseen_holdout
+Ref 9332303022 personalloan-loan-payment-68431971 MERCHANT,EMI,extreme_unseen_holdout
+Utr_2968262277_Creditcard_Mothly_Repayment,EMI,extreme_unseen_holdout
+bnpL*motNhLY*rePAYment-75357683,EMI,extreme_unseen_holdout
+ECS Ecs*auto*DeBit*13907274,EMI,extreme_unseen_holdout
+Ref 40890843 Nach Monthly Repayment,EMI,extreme_unseen_holdout
+nach loan payment-35805714,EMI,extreme_unseen_holdout
+bnpL-loAn-InStALlMENt-PID-96628120,EMI,extreme_unseen_holdout
+ID:9313500591 deductionb ikeloan installment,EMI,extreme_unseen_holdout
+ID-8344610035 NEFT BNPL INSTALLMENT DEDUCTION COMPLETED,EMI,extreme_unseen_holdout
+moRtGage repaynenT MonthlY ORDER,EMI,extreme_unseen_holdout
+POS Monthly Nach Repayment,EMI,extreme_unseen_holdout
+POS PERSONALLOAN MONTHLY REPAYMENT*61970271,EMI,extreme_unseen_holdout
+IMPS ID 8274481785 homeloan monhly repayment DEBIT 48347810,EMI,extreme_unseen_holdout
+paylater PAID TXN monthly repayment UTR_5438794415,EMI,extreme_unseen_holdout
+TXN bAjAJFiNANcE loaN pAymENt_87831849 DR,EMI,extreme_unseen_holdout
+NACH hoMELoAn MOntHly RepaymEnt_86233900,EMI,extreme_unseen_holdout
+mortgage:inatallment:deduction,EMI,extreme_unseen_holdout
+Ref-9537431280 Txn/Bikeloan/Payment/Emi,EMI,extreme_unseen_holdout
+educationloan installment loan ECS**26585320,EMI,extreme_unseen_holdout
+NEFT simpl:monthly:repaymment,EMI,extreme_unseen_holdout
+UTR-1413828708-nAch-monthLy-rePAyMEn-81034179,EMI,extreme_unseen_holdout
+homeloan emi payment ONLINE/76439649,EMI,extreme_unseen_holdout
+IMPS Ref_1444598745 mortgage installment deduction 70629821,EMI,extreme_unseen_holdout
+NEFT REF_2258785689 CREDITCARD INSTALLMENT DEDUCTION,EMI,extreme_unseen_holdout
+Utr:7742619700-Bajajfinance-Emi-Payment-Success,EMI,extreme_unseen_holdout
+UTR*8658064967 bajajfinance installlment deduction,EMI,extreme_unseen_holdout
+auto educationloan debit_1767526 PAID,EMI,extreme_unseen_holdout
+ID:9764680771 bnpl emi payment CHARGE,EMI,extreme_unseen_holdout
+UTR_5495197846 IMPS ecs loan installment:93488926,EMI,extreme_unseen_holdout
+UTR*4784265242 nach loan installment DR/85243262,EMI,extreme_unseen_holdout
+ID_6410746346 NACH SIMpl loan InsTallmeNT,EMI,extreme_unseen_holdout
+SIMpl EmI PaymEnt*118015443 COMPLETED,EMI,extreme_unseen_holdout
+mortgage/loan/installment,EMI,extreme_unseen_holdout
+TXN:UTR:8336221638:caRLoAn:lOaN:PAymEnt,EMI,extreme_unseen_holdout
+NCAH payment_11596344 emi installment,EMI,extreme_unseen_holdout
+debit lendIngkaRT UTR_6471477599 AUtO_23748357,EMI,extreme_unseen_holdout
+PAYmenT eI bajajfInAnCE-17447865,EMI,extreme_unseen_holdout
+monthly repayment/40115139 emi,EMI,extreme_unseen_holdout
+UPI personalloan/monthly/repayment,EMI,extreme_unseen_holdout
+installment/528565 TXN loan nortgage,EMI,extreme_unseen_holdout
+educatIoNloAn MERCHANT-64563922 payment LOAn Ref:7173827576,EMI,extreme_unseen_holdout
+emi UTR*1785974147 payment loan,EMI,extreme_unseen_holdout
+emi auto debit TXN,EMI,extreme_unseen_holdout
+eMI paymEnt/29645993 moRTgaGe,EMI,extreme_unseen_holdout
+UTR:2731639706 nbpl loan payment,EMI,extreme_unseen_holdout
+Neft Ref_3164504335 Lendingkart Auto Debit,EMI,extreme_unseen_holdout
+emi*loan*installment,EMI,extreme_unseen_holdout
+IMPS bikeloan eim payment:71936278,EMI,extreme_unseen_holdout
+installmet/emi/payment*2893602 CHARGE,EMI,extreme_unseen_holdout
+Debit Educationloan Auto,EMI,extreme_unseen_holdout
+emi emi ppayment 24961225,EMI,extreme_unseen_holdout
+UTR*2805876815 bajajfinance loan installmnt PAID_78885103,EMI,extreme_unseen_holdout
+emi installment deduction ONLINE,EMI,extreme_unseen_holdout
+naCh auTo DEbit COMPLETED 291593,EMI,extreme_unseen_holdout
+ID/7265602732/emi/emi/payment ORDER,EMI,extreme_unseen_holdout
+Bnpl Loan Payment Merchant,EMI,extreme_unseen_holdout
+mortgage*losn*payment*BANK_28319722,EMI,extreme_unseen_holdout
+ID 8675421261 BAJAJFINANCE_AUTO_DEBIT*64294549,EMI,extreme_unseen_holdout
+ReF-9124528924-UPI-nacH-loA-paymeNt,EMI,extreme_unseen_holdout
+payment creditcard loan*78316793,EMI,extreme_unseen_holdout
+installmnt mortgage loan REF,EMI,extreme_unseen_holdout
+UTR:6639156051 LENDINGKART AUTO DEBIT,EMI,extreme_unseen_holdout
+POS leNDingKaRt INsTaLlmeNT DeDuCtiON,EMI,extreme_unseen_holdout
+IMPS UTR:7038484339 CARLOANEMI PAYMENT,EMI,extreme_unseen_holdout
+caloan-loan-installment*57779352,EMI,extreme_unseen_holdout
+UTR_2723167646 NEFT consumerloan monthly repayment,EMI,extreme_unseen_holdout
+LENDINGKART LOAN INSTALLMENT ORDER/82686940,EMI,extreme_unseen_holdout
+consumerloan_repament/53423069_monthly_BANK,EMI,extreme_unseen_holdout
+NACH pErSOnAlLOan LoAn paYmEnT:99341153,EMI,extreme_unseen_holdout
+auto paylater debti,EMI,extreme_unseen_holdout
+POS loan bajajfinance installment:18207249,EMI,extreme_unseen_holdout
+Ref 4145360130 Homeloan_Looan_Installment,EMI,extreme_unseen_holdout
+ID:3841497322 ecs installment deduction CHARGE,EMI,extreme_unseen_holdout
+debit:82207121 auto NACH homeloan,EMI,extreme_unseen_holdout
+Paylater/Emi/Pyament/Card,EMI,extreme_unseen_holdout
+IMPS ConsuMeRLoSn:LOaN:inStallmENt,EMI,extreme_unseen_holdout
+ID_4444011564 TXN:debit:nach:auto:26053336,EMI,extreme_unseen_holdout
+Ref_1229042467 veHiclEfInAnce/InSTallmENt//deDUCTion CARD,EMI,extreme_unseen_holdout
+Educationloan-Installment-Deduction-PAYMENT_62068308,EMI,extreme_unseen_holdout
+Ref_7172916806 BANK EMI/INSTALLMENT/DEDUCTION/MERCHANT,EMI,extreme_unseen_holdout
+UTR-1497798663 BNPL MONTHLY REPAYMENT ACCOUNT*98743965,EMI,extreme_unseen_holdout
+NEFT carloan emi payment PAID,EMI,extreme_unseen_holdout
+ID 5036766112 POS bNPL_loAn_paymENt DR,EMI,extreme_unseen_holdout
+ID-3189249301 creditcard auto debit*37632064,EMI,extreme_unseen_holdout
+UTR:3945342403 creditcard*emi*payment MERCHANT,EMI,extreme_unseen_holdout
+PAYMENT ID_7333175313 EDUCATIONLOAN BANK PAYMENT EMI,EMI,extreme_unseen_holdout
+ID/1132677946 Ecs Emi Paymemt Account,EMI,extreme_unseen_holdout
+UPI InsTallmEnT_DEDuctiON_HomeLOan ONLINE,EMI,extreme_unseen_holdout
+LENDINGKART-INSTALLMENT-DEDUCTION:93587000-PAID,EMI,extreme_unseen_holdout
+Ref_5998149901-Personalloan-Emi-Payment,EMI,extreme_unseen_holdout
+CONSUMERLOAN DEBIT AUTO,EMI,extreme_unseen_holdout
+UTR-9718515888 IMPS educationloan emi payment-62801608 SUCCESS,EMI,extreme_unseen_holdout
+ID:9392707018 UPI cArloAn LoAn instaLlmENT CARD,EMI,extreme_unseen_holdout
+veHICleFiNanCe mOntHly rePAYmeNT MERCHANT:19161283,EMI,extreme_unseen_holdout
+UTR:117590313 homeloan installment deduction,EMI,extreme_unseen_holdout
+SIP ACCOUNT CONTRIBUTION,Investment,extreme_unseen_holdout
+ID_384121355 NEFT_Etf_Booking,Investment,extreme_unseen_holdout
+ID 5899841381 NACH equity sip contribution:40964889,Investment,extreme_unseen_holdout
+Ref*7141760166 ACCOUNT CONTRIBUTION MUTUALFUND CARD,Investment,extreme_unseen_holdout
+ID 1944473382 sHarE SinVEstmEnt REF,Investment,extreme_unseen_holdout
+NEFT ONLINE upstox contribution sip-87058379,Investment,extreme_unseen_holdout
+purchase_groww_NACH,Investment,extreme_unseen_holdout
+NEFT sharse*purchase-30830619*SUCCESS,Investment,extreme_unseen_holdout
+BANK Ref_625560683 angeline purchase DR,Investment,extreme_unseen_holdout
+IMPS UTR:7501108637-securities-equity-delivery CHARGE,Investment,extreme_unseen_holdout
+Demat*Sip*Contribution Success,Investment,extreme_unseen_holdout
+Ref*5763932271 stocKs:pUrChase:63588467 COMPLETED,Investment,extreme_unseen_holdout
+Zerodha*Investment*Upi*62295374,Investment,extreme_unseen_holdout
+NACH upstOx sip ContrIbUtIoN PAID,Investment,extreme_unseen_holdout
+shares:quity:delivery,Investment,extreme_unseen_holdout
+ID 9069314862 equity:equity:delivery:36115177,Investment,extreme_unseen_holdout
+account etf ocntribution 59023137,Investment,extreme_unseen_holdout
+Utr:4126088213 Fd Account Contribution,Investment,extreme_unseen_holdout
+Ref_3188050342 BANK_securities_booking_REF,Investment,extreme_unseen_holdout
+NEFT DEMAT CONTRBIUTION ACCOUNT,Investment,extreme_unseen_holdout
+SECURITIES-PURCHASE,Investment,extreme_unseen_holdout
+UPI ID booking bond 6197420366,Investment,extreme_unseen_holdout
+TXN EQUITY DELIVERY Ref*4905538884 PORTFOLIO,Investment,extreme_unseen_holdout
+puurchase-upstox-11722577-REF,Investment,extreme_unseen_holdout
+INVESTMENT COMPLETED*88962372 ZERODHA,Investment,extreme_unseen_holdout
+mutualfund:contribution:sip:DEBIT,Investment,extreme_unseen_holdout
+UTR_4054860152 booking equit_66847082,Investment,extreme_unseen_holdout
+delivery equity fixeddeposit_60487757,Investment,extreme_unseen_holdout
+Recurringdeposit Sip Contibution,Investment,extreme_unseen_holdout
+investment fd SUCCESS,Investment,extreme_unseen_holdout
+Pf Account Contribution,Investment,extreme_unseen_holdout
+demt booking,Investment,extreme_unseen_holdout
+Sip Contributoon Mutualfund Order,Investment,extreme_unseen_holdout
+contribution_30932089 bond ID/8046129054 account,Investment,extreme_unseen_holdout
+recurringdeposit:purchase:ORDER/28620863,Investment,extreme_unseen_holdout
+ID/9411533996/SHarees/AcCounT/coNTrIButiON*69432736,Investment,extreme_unseen_holdout
+zerodha sip conTRIbution SUCCESS,Investment,extreme_unseen_holdout
+IMPS zerodhA ACCOunt cONTribUTiON,Investment,extreme_unseen_holdout
+ID:9279028378/upstox/contribution/sip:95309538,Investment,extreme_unseen_holdout
+UTR:2469264637 POS sip account contribution,Investment,extreme_unseen_holdout
+CARD eqiuty purchase,Investment,extreme_unseen_holdout
+SHARES INVESTMENT/94437873,Investment,extreme_unseen_holdout
+sip contribution-4756881 shares SUCCESS,Investment,extreme_unseen_holdout
+RwcuRringDePosIT BoOking,Investment,extreme_unseen_holdout
+ID IMPS EQUITY DELIVERY RECRURINGDEPOSIT 388977214,Investment,extreme_unseen_holdout
+IMPS:etf:investment,Investment,extreme_unseen_holdout
+ID:5134763291 zerodha account contribution PAID,Investment,extreme_unseen_holdout
+NACH UTR*7091452528 ppf sip contribution PAYMENT,Investment,extreme_unseen_holdout
+portfolioo investment TXN,Investment,extreme_unseen_holdout
+ID-6041481779 NEFT angelone sip contriubtion/28745408 REF,Investment,extreme_unseen_holdout
+TXN-67303415 IMPS account contribution ppf,Investment,extreme_unseen_holdout
+portfolio Sip conTributIoN,Investment,extreme_unseen_holdout
+UTR/9945887015 UPI bond/equity/delivery*50508019,Investment,extreme_unseen_holdout
+bond-delivery_41354464-equity-PAID,Investment,extreme_unseen_holdout
+Ref-9404335470 upstox--contribution-account,Investment,extreme_unseen_holdout
+INVESTMENT/ACCOUNT/UPSTOX-86372752,Investment,extreme_unseen_holdout
+IMPS ID/486371251 secUrItiEs eqUItY deliVerY/29799874 REF,Investment,extreme_unseen_holdout
+ID*7306060336/BANK/GRoWW/eQuITy/delivery_98754135,Investment,extreme_unseen_holdout
+FIXEDdEpOsiT eQUITy dElIVery DEBIT,Investment,extreme_unseen_holdout
+ID_8900982702*groww*account*contribution_69997873*ACCOUNT,Investment,extreme_unseen_holdout
+Zerodha Sip Contribution*4257712 Paid,Investment,extreme_unseen_holdout
+UTR/8729448224 Demat Sip Contribution MERCHANT:7395539,Investment,extreme_unseen_holdout
+POS UTR*9980390409*etfequity*delivery*SUCCESS,Investment,extreme_unseen_holdout
+TXN SIP PURCHASE REF,Investment,extreme_unseen_holdout
+Upi Bond Sip Cnotribution,Investment,extreme_unseen_holdout
+Ref 3142942887 NACH sharesi nvestment COMPLETED,Investment,extreme_unseen_holdout
+investment nps ONLINE,Investment,extreme_unseen_holdout
+fixeddeposit purchase MERCHANT,Investment,extreme_unseen_holdout
+Angelone Investment,Investment,extreme_unseen_holdout
+Securities:Account:Contributiion-34510837,Investment,extreme_unseen_holdout
+equity-booking,Investment,extreme_unseen_holdout
+GROWW BOOKING*36238232 ACCOUNT,Investment,extreme_unseen_holdout
+ID-4852898205 sip_sip_contribution-13556669,Investment,extreme_unseen_holdout
+ECS Ref demat 989669185 purchase ONLINE,Investment,extreme_unseen_holdout
+Ref/5482420014 securities:account:contribution,Investment,extreme_unseen_holdout
+ECS Booking Groww Order:59799102,Investment,extreme_unseen_holdout
+COnTribUtiOn-28525711 BoNd accouNT BANK,Investment,extreme_unseen_holdout
+FD sipp ContribuTion ONLINE,Investment,extreme_unseen_holdout
+sharees purchase/15182698,Investment,extreme_unseen_holdout
+sp purchase:85130795,Investment,extreme_unseen_holdout
+NEFT SECURITIES*BOOKING*DEBIT,Investment,extreme_unseen_holdout
+shAres Sip CoNTirbutIon REF 95172217,Investment,extreme_unseen_holdout
+UTR*1998018140 ECS secruities sip contribution,Investment,extreme_unseen_holdout
+UTR:6903052029 nps booking*58693985 PAID,Investment,extreme_unseen_holdout
+swcurities investment*52624194,Investment,extreme_unseen_holdout
+UTR*6421725764 bond investment PAID,Investment,extreme_unseen_holdout
+equity/account/contribution PAID NACH 22102103,Investment,extreme_unseen_holdout
+UPSTOX-EQUITY-DELIVERY-ACCOUNT*43164610,Investment,extreme_unseen_holdout
+UTR 5901021966 ECS/nps/account/contribution:86373148,Investment,extreme_unseen_holdout
+ECS EQuiTy PUrchase*92523224,Investment,extreme_unseen_holdout
+TXN Etf Investmeent,Investment,extreme_unseen_holdout
+UTR-4665743851 ppf equity delivery,Investment,extreme_unseen_holdout
+Id:875772617-Pos-Fd-Equity-Delivery*89829023,Investment,extreme_unseen_holdout
+NEFT Utr*853370355 Fixeddeposit Booking-2423960,Investment,extreme_unseen_holdout
+Ref:3059516828 NACH ACCOUNT UPSTOX CONTRIBUTION DEBIT,Investment,extreme_unseen_holdout
+POS fd account ID:7971187256 contribution,Investment,extreme_unseen_holdout
+NACH Bond_Account_Contribution 63097793,Investment,extreme_unseen_holdout
+mutualfund_equity_delivery_OCMPLETED,Investment,extreme_unseen_holdout
+investment securities DR_83704438,Investment,extreme_unseen_holdout
+BANK ID/9776479638 sip contribution etf PAYMENT:1669681,Investment,extreme_unseen_holdout
+furnitrue retail purchase*59519160,Shopping,extreme_unseen_holdout
+POS TXN Ref_441660803 shopping payment:27220912 furniture,Shopping,extreme_unseen_holdout
+meesho:online:order:DR,Shopping,extreme_unseen_holdout
+BANK PAYMENT SHPPING AMAZON CHARGE,Shopping,extreme_unseen_holdout
+titan shopping payment 41248007,Shopping,extreme_unseen_holdout
+Tanishq POS poDuct PUrChase,Shopping,extreme_unseen_holdout
+ID/847856065 order amazon online:60464870,Shopping,extreme_unseen_holdout
+ID-550097437 TXN clothing card purchase CHARGE,Shopping,extreme_unseen_holdout
+NEFT tanishq product purchase,Shopping,extreme_unseen_holdout
+TXN card purchase laptop_64887659,Shopping,extreme_unseen_holdout
+tanishq retail purchase REF*39412598,Shopping,extreme_unseen_holdout
+purchase clothing retail 62759412,Shopping,extreme_unseen_holdout
+TNX AJiO oNLine ORdER:2512395,Shopping,extreme_unseen_holdout
+purchase 67659472 card laptop NEFT SUCCESS,Shopping,extreme_unseen_holdout
+UTR/1194619817 DECathlON Card pUrCHase MERCHANT-48660630,Shopping,extreme_unseen_holdout
+Pruchase*19999460 Clothing Retail Txn,Shopping,extreme_unseen_holdout
+furniture:ONLINE:purchase:retail:UTR_66932329,Shopping,extreme_unseen_holdout
+TANISHQ/ONLINE/ORDER/53531343,Shopping,extreme_unseen_holdout
+IMPS FURNITURE-PRODUCT-PURCHASE 47072733,Shopping,extreme_unseen_holdout
+Card Meesho Upi 73228711 Purchase ONLINE,Shopping,extreme_unseen_holdout
+UTR*4908730400 FLIPKART ONLINE ORDER COMPLETED,Shopping,extreme_unseen_holdout
+ECS meesho:order:payment,Shopping,extreme_unseen_holdout
+CROMA CARD PURCHASE COMPLEED,Shopping,extreme_unseen_holdout
+ECS Ref_1253678138 Laptop Shoppong Payment,Shopping,extreme_unseen_holdout
+NACH croma:card:purchase,Shopping,extreme_unseen_holdout
+Ref 902378927 titan olnine order/84534896,Shopping,extreme_unseen_holdout
+retail reliancedigital uprchase-27193264 PAYMENT,Shopping,extreme_unseen_holdout
+ID-5606788231/PAYMENT_19851802/ORDER/RELIANCEDIGITAL,Shopping,extreme_unseen_holdout
+NEFT Ref*7001771004*myntra*online*order,Shopping,extreme_unseen_holdout
+purchase-clothing-card-ID-4167328664-TXN-44707425,Shopping,extreme_unseen_holdout
+clothing/retail/purchase,Shopping,extreme_unseen_holdout
+ECS ecommerce*product*purcase CHARGE*96635013,Shopping,extreme_unseen_holdout
+ID/3384694181 ECS myntra:shopping:payment,Shopping,extreme_unseen_holdout
+ID-4552913058 POS ikea card purchase,Shopping,extreme_unseen_holdout
+ID_7510452114 CLOTHING CARD PURCHASE DR,Shopping,extreme_unseen_holdout
+deCathloN-ProdUcT-pUrchAse*83141696,Shopping,extreme_unseen_holdout
+payyment*order*flipkart*ONLINE*UTR_3650358050,Shopping,extreme_unseen_holdout
+ID/2233132949 ORDER ECS PAYMENT ELECTRONICS,Shopping,extreme_unseen_holdout
+titan*order*paymennt,Shopping,extreme_unseen_holdout
+clothing/online/ordeer COMPLETED,Shopping,extreme_unseen_holdout
+BANK-flipkart-order-payment ID_1923897611,Shopping,extreme_unseen_holdout
+Ref-190239477 Appliance-Product-Purchase,Shopping,extreme_unseen_holdout
+POS reliancedigital order paymment,Shopping,extreme_unseen_holdout
+ID:9970114943 Tanishq_Online_Order MERCHANT-34877297,Shopping,extreme_unseen_holdout
+TXN/ID_1279289881/FliPkART/OnliNe/OrdEr/ORDER,Shopping,extreme_unseen_holdout
+POS shopping apyment ikea*71861772,Shopping,extreme_unseen_holdout
+Payment Pos Ref:8024647540 CHARGE Order Amazon,Shopping,extreme_unseen_holdout
+Myntra Retail Purchase,Shopping,extreme_unseen_holdout
+online cothing order:40117461 ONLINE,Shopping,extreme_unseen_holdout
+UPI flipkart product purchase-25022780,Shopping,extreme_unseen_holdout
+UTR:9377060046 myntra:online:order:ONLINE,Shopping,extreme_unseen_holdout
+NACH ID*209612927 taNISHq shoPpIng PaYmenT_73943917 ORDER,Shopping,extreme_unseen_holdout
+titan*product*puurchase PAID,Shopping,extreme_unseen_holdout
+croma*product*UPI*purchase,Shopping,extreme_unseen_holdout
+ECS*ID/2463973407*meesho*product*purchase,Shopping,extreme_unseen_holdout
+Ikea:Order:Payment:Order,Shopping,extreme_unseen_holdout
+UTR:9043786263 furniture order payment,Shopping,extreme_unseen_holdout
+IMPS:nykaa:card:purchase/82320266,Shopping,extreme_unseen_holdout
+BANK UTR*4690514055 aJjio retail PurChase,Shopping,extreme_unseen_holdout
+Flipkart Purchase Product,Shopping,extreme_unseen_holdout
+ID 2589998048 PAYMENT:83223748 SHOPPING IKEA,Shopping,extreme_unseen_holdout
+ECS APPLIANCE ONLINE ORDER 60604209 DEBIT,Shopping,extreme_unseen_holdout
+UTR-8755951997 laptop shopping payment_83486973,Shopping,extreme_unseen_holdout
+ID*5013942233-meesho-retail-purchase,Shopping,extreme_unseen_holdout
+pAymenT:61117002 MEESho ONLINE shopping,Shopping,extreme_unseen_holdout
+UTR5:974889068 AMAZoN Online ORDeR,Shopping,extreme_unseen_holdout
+order ONLINE PAYmEnT-35730945 aMAziN,Shopping,extreme_unseen_holdout
+ID/7094317889 ECS PRODUCT RETAIL PURCHASE REF,Shopping,extreme_unseen_holdout
+NEFT purchase mobilephone retail DEBIT*75895032,Shopping,extreme_unseen_holdout
+BANK-CLOTHING-SHOPPING-PAYMENT,Shopping,extreme_unseen_holdout
+UPI MOBILEPHONE CARD PURCHASE ONLINE*68936874,Shopping,extreme_unseen_holdout
+POS paYMent shOppINg ReTaIl DEBIT,Shopping,extreme_unseen_holdout
+ECOMMERCE CARD PURCHASE,Shopping,extreme_unseen_holdout
+reliancedigital retail purchase UTR*5054501158,Shopping,extreme_unseen_holdout
+MYNTRA/ONNLINE/ORDER*10061806,Shopping,extreme_unseen_holdout
+ID*4250622380 purchase card mobilephone:68944185,Shopping,extreme_unseen_holdout
+laptop product urchase PAYMENT*73203718,Shopping,extreme_unseen_holdout
+REF/7712394779 ONLINE ORDER RETAIL,Shopping,extreme_unseen_holdout
+reliancedigital_shopping_payment MERCHANT,Shopping,extreme_unseen_holdout
+Pos Flipkart Shopping Payment,Shopping,extreme_unseen_holdout
+UTR*843847377 POS decathlon product purchse:67633513,Shopping,extreme_unseen_holdout
+UTR_1173416219 puRchASe EcomMeRCE rEtAiL,Shopping,extreme_unseen_holdout
+reliancedigital_shopping_payment_SUCCESS:18371856,Shopping,extreme_unseen_holdout
+reliancedigital/shpoping/payment,Shopping,extreme_unseen_holdout
+IMPS reliancedigital shopping paymennt,Shopping,extreme_unseen_holdout
+purchase/8769497 retail ecommerce,Shopping,extreme_unseen_holdout
+Purchase Laptop Product,Shopping,extreme_unseen_holdout
+UPI ID*5163018429 CLOTHING-CARD-PURCHASE REF,Shopping,extreme_unseen_holdout
+IMPS order ikea Ref*7727404171 online,Shopping,extreme_unseen_holdout
+ID 2650697257 NykAa reTail Purchase 76365225,Shopping,extreme_unseen_holdout
+POS online nykaa order_60860703,Shopping,extreme_unseen_holdout
+UPI reliancedigital_online_order 73829682,Shopping,extreme_unseen_holdout
+NACH ID-3496577408 ELECTRONICS RETAIL PURCHASE,Shopping,extreme_unseen_holdout
+NACH ID6018776276 tanishq retail purchase,Shopping,extreme_unseen_holdout
+appliANCe*prOduCT*puRcHASe,Shopping,extreme_unseen_holdout
+Nykaa Retail Purchase-87499615,Shopping,extreme_unseen_holdout
+prodUCt MEeShO purchase,Shopping,extreme_unseen_holdout
+Ajoo:Order:Payment_97679601:ACCOUNT,Shopping,extreme_unseen_holdout
+clothingcard-purchase,Shopping,extreme_unseen_holdout
+TXN meesho card purchase:37207399,Shopping,extreme_unseen_holdout

@@ -1,0 +1,501 @@
+Transaction_Text,Expected,source,Predicted,Confidence,Exception
+Ref_9558722731*CAFe*KFc*pAYMEnt,Food,extreme_unseen_holdout,Food,0.9813803962675526,False
+DR zomato food UPI order,Food,extreme_unseen_holdout,Food,0.9730185801183505,False
+NACH Swiggy Dinner Order:88569719,Food,extreme_unseen_holdout,Food,0.9845480900908996,False
+bakery food order 57142106 CARD,Food,extreme_unseen_holdout,Food,0.970601018276644,False
+UTR 1451064525 starbucks DInNer ORder/39277824 ONLINE,Food,extreme_unseen_holdout,Food,0.8323987233590178,False
+BANK RESTAURANT DINNER ORDER:35186095 PAYMENT,Food,extreme_unseen_holdout,Food,0.9916069225452738,False
+ID_772898730 TXN cafe meal bill,Food,extreme_unseen_holdout,Food,0.971407467716224,False
+UTR/8497185298 kfc dNneR order PAYMENT,Food,extreme_unseen_holdout,Food,0.8071526699105825,False
+ID-9329377573 cafe payment restaurant,Food,extreme_unseen_holdout,Food,0.9949884064606924,False
+UTR CHARGE 8252343857 grocery*meal*bill_44885325,Food,extreme_unseen_holdout,Food,0.9871376409612802,False
+ordEr ECS zOmaTo dInnER,Food,extreme_unseen_holdout,Food,0.9738237825377095,False
+OrdEr BLINkItd iNNER TXN,Food,extreme_unseen_holdout,Food,0.7382944258008538,False
+purchase-kfc-grocery-MERCHANT-ECS,Food,extreme_unseen_holdout,Food,0.818989739997721,False
+BILL MEAL INSTAMART MERCHANT,Food,extreme_unseen_holdout,Food,0.9313954570266287,False
+POS ID_4376974288 Zomato reSTAuraNt PaYMENt DEBIT,Food,extreme_unseen_holdout,Food,0.8782427367148036,False
+TXN supermarket restaurant payment PAYMENT,Food,extreme_unseen_holdout,Food,0.9745956784751872,False
+ID/806796900_supermarKet_dinnEr_orDer_96538297,Food,extreme_unseen_holdout,Food,0.9400593156225532,False
+Ref 1576612861 ccd food order_275515,Food,extreme_unseen_holdout,Food,0.9472253481987704,False
+BANK order food bigbasket*70801938,Food,extreme_unseen_holdout,Food,0.9723324760946687,False
+Starbucks-Grocery-Purchase 5599338 REF,Food,extreme_unseen_holdout,Food,0.9369455217920147,False
+UTR*4530779352 IMPS CAFE DINNER ORDER,Food,extreme_unseen_holdout,Food,0.9872696985138684,False
+Bigbasket Meal Bill DEBIT,Food,extreme_unseen_holdout,Food,0.9548335471143626,False
+POS resTAurant baKEyR payment,Food,extreme_unseen_holdout,Food,0.9329761831858259,False
+CANTEEN GROCERY PURCHASE/52225987,Food,extreme_unseen_holdout,Food,0.957986900866517,False
+Ref 8296332676 swiggy_grocery_purchase:3187417,Food,extreme_unseen_holdout,Food,0.9734099468278035,False
+Ref 8982279262 SUCCESS purchase canteen grocery:96763864,Food,extreme_unseen_holdout,Food,0.9007825188381628,False
+TXN mcdonalds cafep ayment ONLINE,Food,extreme_unseen_holdout,Food,0.7157385501955709,False
+instaamrt restaurant payment 88439200,Food,extreme_unseen_holdout,Food,0.9664785266295532,False
+kfc payment:78809846 Ref*4883612740 restaurant DEBIT,Food,extreme_unseen_holdout,Food,0.9176780063468418,False
+bigBasKet DINner ordER ONLINE,Food,extreme_unseen_holdout,Food,0.9189540824702924,False
+ECS DUNZO CAFE PAYMENT*47468118 REF,Food,extreme_unseen_holdout,Food,0.9360060210007036,False
+TXN instamart meal bill PAID,Food,extreme_unseen_holdout,Food,0.9523526566214289,False
+ID*2328348923 MCDONALDS FOOD ORDER PAYMENT,Food,extreme_unseen_holdout,Food,0.9856233833700064,False
+cafe payment dunzo CARD,Food,extreme_unseen_holdout,Food,0.969891601028562,False
+Id-6020854831 Impsz Omato Food Order,Food,extreme_unseen_holdout,Food,0.9600018578412004,False
+IMPS CAFE MEAL BILL:33242560,Food,extreme_unseen_holdout,Food,0.9913170339179792,False
+UTR*3450354897 purchase dominos grocery ACCOUNT,Food,extreme_unseen_holdout,Food,0.8849450343620744,False
+Ref-6131601995 REsTaurant-RocERY-purchase,Food,extreme_unseen_holdout,Food,0.977820883680227,False
+ID/5738778268 restaurant meal bill,Food,extreme_unseen_holdout,Food,0.9961094750957905,False
+ID-579418484 piizzahut restaurant payment,Food,extreme_unseen_holdout,Food,0.9795470326352478,False
+Ref-2025021129 TXN swIggy pURcHASe grOcEry,Food,extreme_unseen_holdout,Food,0.9692880452977098,False
+CARD NEFT meal BIlL StARbucKS,Food,extreme_unseen_holdout,Food,0.9738991766656026,False
+grocery grocery purchase*27399809 ORDER,Food,extreme_unseen_holdout,Food,0.9723395296341769,False
+ID*6711501703 ccd grocery purchase TXN,Food,extreme_unseen_holdout,Food,0.9019440438695236,False
+BANK ID_6030802848*bakery*cafe*payment:13778369,Food,extreme_unseen_holdout,Food,0.8901449160818226,False
+Ecs Id 4154484033 Instamart*Grocery*Purchase,Food,extreme_unseen_holdout,Food,0.9011441508130368,False
+Foodcourt Dinner Order Merchant*10359133,Food,extreme_unseen_holdout,Food,0.9702706500508402,False
+Restaurant Cafe Payment,Food,extreme_unseen_holdout,Food,0.9969513795987118,False
+caneten_restaurant_payment-50260486_TXN,Food,extreme_unseen_holdout,Food,0.946549964797417,False
+cafe pizzahut NACH payment ORDER,Food,extreme_unseen_holdout,Food,0.9358211508249645,False
+Dinner Order Ref 1904631209 Ecs Starbucks,Food,extreme_unseen_holdout,Food,0.9472781032110598,False
+Ref 8169317240 IMPS bigbasket cafe payment*24963423 ACCOUNT,Food,extreme_unseen_holdout,Food,0.9215801774818503,False
+Ref 5024265502 IMPS BIGbasKet*mEal*Bill,Food,extreme_unseen_holdout,Food,0.9526414574725953,False
+BANK grocery/food/order,Food,extreme_unseen_holdout,Food,0.9622938237170111,False
+bill meal blinkit REF,Food,extreme_unseen_holdout,Food,0.9620599525584315,False
+BANK ID/5459601599 Zomato Cafe Payment-41426159,Food,extreme_unseen_holdout,Food,0.9331140897143072,False
+Ref/9351759997 grocery retsaurant purchase:33148249,Food,extreme_unseen_holdout,Food,0.9022696613458522,False
+NACH Mcdonalda Meal Bill/16160155,Food,extreme_unseen_holdout,Food,0.977202584506698,False
+ECS pizzahut cfae payment,Food,extreme_unseen_holdout,Food,0.6691991721941729,False
+UTR-8173244131:zomato:food:order 91620674 REF,Food,extreme_unseen_holdout,Food,0.9794516894923331,False
+BANK UTR_9739580715 bakery food order,Food,extreme_unseen_holdout,Food,0.9435379827136298,False
+UPI UTR/9013409235 oRdEr Cafe diNNwR,Food,extreme_unseen_holdout,Food,0.9528274469792005,False
+PURCHASE_21800684_GROCERY_TXN_PIZZAHUT,Food,extreme_unseen_holdout,Food,0.9250507909515279,False
+Pizzahut Food Order 72800690,Food,extreme_unseen_holdout,Food,0.9805631439973754,False
+BAANK caFe mEal Bill,Food,extreme_unseen_holdout,Food,0.9961099920451939,False
+bigbasket_food_ordeer:5989976,Food,extreme_unseen_holdout,Food,0.9445587370261038,False
+UTR_4199073968 ECS bakery restaurant payment,Food,extreme_unseen_holdout,Food,0.9501363424819523,False
+Restaurant Payment_850623 Cafe,Food,extreme_unseen_holdout,Food,0.9962438574813129,False
+8116843294 grocery*food*order:15443740 Ref,Food,extreme_unseen_holdout,Food,0.9984172031590244,False
+NACH PIZZAHUT FOOD ORDER_69620710,Food,extreme_unseen_holdout,Food,0.9394090840135607,False
+dunzo grocery purchaase-11431861,Food,extreme_unseen_holdout,Food,0.9078185727225918,False
+UTR-1175403423 bIgbasket cafe paYent*23910105,Food,extreme_unseen_holdout,Food,0.9491005933155803,False
+Zomato*Meaal*Bill MERCHANT,Food,extreme_unseen_holdout,Food,0.8288033898207097,False
+NACH FooDCOurt restAUranT payMeNt,Food,extreme_unseen_holdout,Food,0.9840034053425409,False
+UTR_9897578505:NACH:pizzahut:caf:epayment:CHARGE,Food,extreme_unseen_holdout,Food,0.5167376153322638,True
+ID 4546246003 order/instamart/food,Food,extreme_unseen_holdout,Food,0.8496757162185586,False
+REF/6598876483_SuPermARket_dINneR_orDER/40415349,Food,extreme_unseen_holdout,Travel,0.3002459866069798,True
+Ref/823317222 CAFE GROCERY REF PAYMENT,Food,extreme_unseen_holdout,Food,0.9943510618000537,False
+ccd-meal-bill ACCOUNT:99054544,Food,extreme_unseen_holdout,Food,0.9637196072525774,False
+ECS Ref:8705870321 gRoceRy dOmInos PurchaSE/34269809,Food,extreme_unseen_holdout,Food,0.9436975548070785,False
+Bill:Supermarket:Meal CHARGE,Food,extreme_unseen_holdout,Food,0.9415149027561778,False
+GROCERY PURCHASE FOODCOURT,Food,extreme_unseen_holdout,Food,0.9867935324223415,False
+ID-6687345779 starbucks/cafe/payment/53236476,Food,extreme_unseen_holdout,Food,0.8825291678777665,False
+NACH Fod Order Kfc,Food,extreme_unseen_holdout,Food,0.6899693911039324,False
+grocwry cafe purchase_79716441,Food,extreme_unseen_holdout,Food,0.8966865924358672,False
+Ref-4448605808 zepto restaurant payment 90772138,Food,extreme_unseen_holdout,Food,0.9880891262606193,False
+ID/8040447869/NEF/CaNteen/CafE/payment,Food,extreme_unseen_holdout,Food,0.8893302729579236,False
+UPI payment-45983710 dominos acfe MERCHANT,Food,extreme_unseen_holdout,Food,0.7324080386903538,False
+Utr-2624440325 Zomato Grocery Purchase,Food,extreme_unseen_holdout,Food,0.9531178420446842,False
+ID 4200649560 Bigbasket Meal Bill,Food,extreme_unseen_holdout,Food,0.9776790382568731,False
+NACH bAKery DinNeR oRder_30215287,Food,extreme_unseen_holdout,Food,0.9354860706999798,False
+Ref:9021497952 dinner order POS dunzo REF:56912654,Food,extreme_unseen_holdout,Food,0.9588704730568361,False
+BANK zomato cafe payment DR,Food,extreme_unseen_holdout,Food,0.9433171157137863,False
+Ref cafe dinnre order 9408110750,Food,extreme_unseen_holdout,Food,0.9213365719492337,False
+Ref:4029049959 Dinner Order Dunzo MERCHANT,Food,extreme_unseen_holdout,Food,0.9575925288926371,False
+instamart restaurant UTR-6073430183 paynent,Food,extreme_unseen_holdout,Food,0.9132822236940841,False
+ZEPT*OGROCERY*PURCHASE*SUCCESS,Food,extreme_unseen_holdout,Food,0.5993476041975426,True
+Ref/3420245749-Payment-Restaurant-Cafe-34443377,Food,extreme_unseen_holdout,Food,0.9962215965001958,False
+ID:7708475509*grocery*meal*bill,Food,extreme_unseen_holdout,Food,0.9982595513542522,False
+kfC meal Bill PAID,Food,extreme_unseen_holdout,Food,0.9677282325293994,False
+UTR*3585635700 HOTEL AIRINIDA BOOKING MERCHANT,Travel,extreme_unseen_holdout,Travel,0.9100036905557422,False
+Uber/Travel/Payment,Travel,extreme_unseen_holdout,Travel,0.9451755959043856,False
+UTR/8032692621 airindia flight ticket_54247790,Travel,extreme_unseen_holdout,Travel,0.9727252354706882,False
+Ref 9779973322 IMPS akasa ticket rai ACCOUNT,Travel,extreme_unseen_holdout,Travel,0.8781670523949756,False
+Ola Flight Ticket/99391386C OMPLETED,Travel,extreme_unseen_holdout,Travel,0.955881410751806,False
+Ticket Fuel Rail,Travel,extreme_unseen_holdout,Travel,0.9992767543641439,False
+Ref_1069164224 UPI Iocl Flight Ticket ACCOUNT,Travel,extreme_unseen_holdout,Travel,0.9583953232113406,False
+POS Makemytrip Fuel Payment,Travel,extreme_unseen_holdout,Travel,0.9622179726614414,False
+BANK:UTR:9242237061:irctc:ravel:payment 61826948,Travel,extreme_unseen_holdout,Travel,0.9065214400305992,False
+REF*3822893141 olA fuEl pAyment,Travel,extreme_unseen_holdout,Travel,0.9702692757996161,False
+NEFT taxi-travel-payment TXN UTR:7290350423,Travel,extreme_unseen_holdout,Travel,0.9391421570468328,False
+Ref-9822662170 fuel airport payment/17924650,Travel,extreme_unseen_holdout,Travel,0.9638933534417675,False
+UPI INDIGO FUEL PAYMENT:12182540 MERCHANT,Travel,extreme_unseen_holdout,Travel,0.9538033710306695,False
+NEFT UTR/1401407804 metro flight ticket/28071476,Travel,extreme_unseen_holdout,Travel,0.955743006624402,False
+UTR_7928166615 RAILWAY TRAVEL PAYMENT/88439231,Travel,extreme_unseen_holdout,Travel,0.9671588162616832,False
+ECS/FuEl/raIl/tiCket,Travel,extreme_unseen_holdout,Travel,0.946186169633217,False
+BANK REDBUS*FLIGHT**TICKET/64063783,Travel,extreme_unseen_holdout,Travel,0.9784616958739089,False
+UPI Ref:88695203 taXI hotlE bookInG,Travel,extreme_unseen_holdout,Travel,0.8607233763588052,False
+BANK PAYYMENT FUEL RAPIDO COMPLETED,Travel,extreme_unseen_holdout,Travel,0.9118811809791786,False
+UPI Utr/1972578683 Booking Cab Fare/4312171,Travel,extreme_unseen_holdout,Travel,0.9055960092993833,False
+UPI TAXI BOOKING HOTLE ORDER,Travel,extreme_unseen_holdout,Travel,0.6843066244603228,False
+NEFT:REDBUS:CAB:FARE-64270364 ACCOUNT,Travel,extreme_unseen_holdout,Travel,0.9570550057820347,False
+INDIGO/TRAVEL/PAYMETN_56771526,Travel,extreme_unseen_holdout,Travel,0.8622860161500152,False
+ID:1791307739 airport rail ticket_91708207,Travel,extreme_unseen_holdout,Travel,0.9602021552889511,False
+NACH Id/3531985080/Fuel/Flight/Tiicket,Travel,extreme_unseen_holdout,Travel,0.8902335105447807,False
+CHARGE cab fare ID-9125849374 oyo,Travel,extreme_unseen_holdout,Travel,0.9585366440984256,False
+rAiilWaY cAb FARe,Travel,extreme_unseen_holdout,Travel,0.9914156973999907,False
+Ref*3147990154 UPI taxi hoetl booking ONLINE,Travel,extreme_unseen_holdout,Travel,0.6901070586901762,False
+OLA FLIGHHT TICKET,Travel,extreme_unseen_holdout,Travel,0.9899769328331448,False
+TXN AIRINDIA/CAB/FARE,Travel,extreme_unseen_holdout,Travel,0.7609355952157184,False
+RAPIDO*FLIGHT*TICKET*66190751,Travel,extreme_unseen_holdout,Travel,0.9959923690319772,False
+ID_1106485273 uber:travel:payment:93089641 TXN,Travel,extreme_unseen_holdout,Travel,0.9402643022610977,False
+UTR 4461611807 POS fare cab ooy*90397199,Travel,extreme_unseen_holdout,Travel,0.8513766778532159,False
+IMPS iyo payment fuel 29180420 CARD,Travel,extreme_unseen_holdout,Travel,0.9044005583204106,False
+CAB METRO FARE,Travel,extreme_unseen_holdout,Travel,0.9848305860095394,False
+booking_rail_ticket REF,Travel,extreme_unseen_holdout,Travel,0.9755387588028616,False
+Id/295728512 Petrol Rail Ticket/20013897 Dr,Travel,extreme_unseen_holdout,Travel,0.9759856714181603,False
+ID*9578133707 taxi hotel booking 25273613,Travel,extreme_unseen_holdout,Travel,0.9799832991152073,False
+POS Ref 5229119915 tax*flight*ticket PAYMENT,Travel,extreme_unseen_holdout,Travel,0.9426389179889416,False
+rail ticket iocl SUCCESS,Travel,extreme_unseen_holdout,Travel,0.9695939573298343,False
+Txn Rail Ticket Goibibo,Travel,extreme_unseen_holdout,Travel,0.9871911102343788,False
+payment*37647370:ola:ACCOUNT:fuel,Travel,extreme_unseen_holdout,Travel,0.9361980841477116,False
+raiLwy HOTEl bOokiNg-78668101,Travel,extreme_unseen_holdout,Travel,0.992667355123724,False
+UTR-1813078064_fuel_rail_ticket,Travel,extreme_unseen_holdout,Travel,0.990594005211273,False
+UTR_3983240225 OLA FUEL PAYMENT,Travel,extreme_unseen_holdout,Travel,0.9225034667283283,False
+UTR-1275113011 TICKET RAPIDO RAIL ACCOUNT/7495486,Travel,extreme_unseen_holdout,Travel,0.9507542982655927,False
+TXN tai travel payment DR_23590676,Travel,extreme_unseen_holdout,Travel,0.8905468567239329,False
+ID 4360902694 ticket flight iocl,Travel,extreme_unseen_holdout,Travel,0.9824395045301547,False
+Iocl Flight Ticket Card,Travel,extreme_unseen_holdout,Travel,0.9848671848742014,False
+Imps Travel Payment*32150453 Akasa,Travel,extreme_unseen_holdout,Travel,0.9768440316800561,False
+booking-flight-ticket-BANK,Travel,extreme_unseen_holdout,Travel,0.9890684331974725,False
+NEFT indigo cab fare:48166743,Travel,extreme_unseen_holdout,Travel,0.982028924516961,False
+UTR/985556586 iocl railt icket,Travel,extreme_unseen_holdout,Travel,0.8607243678000029,False
+Ref_647508203 fuel rial ticket SUCCESS,Travel,extreme_unseen_holdout,Travel,0.9812466618498931,False
+UPI redbus*flight*ticket PAID-65568845,Travel,extreme_unseen_holdout,Travel,0.9825938927873955,False
+ECS redBus RaiL tiCKeT:39743891,Travel,extreme_unseen_holdout,Travel,0.9834878040163244,False
+BANK ID:6545542679 REDBUS TRAVEL PAYMENT,Travel,extreme_unseen_holdout,Travel,0.9621185494460285,False
+AIRINDIA*FUEL*PAYMENT,Travel,extreme_unseen_holdout,Travel,0.9808166644218255,False
+airrindia/fuel/payment:41230370,Travel,extreme_unseen_holdout,Travel,0.9745711046782695,False
+flight irctc ticket,Travel,extreme_unseen_holdout,Travel,0.9973549612234073,False
+Ref 6030354209 IMPS redbus fuel payment,Travel,extreme_unseen_holdout,Travel,0.9717148155017087,False
+travel 14363805 fuel payment,Travel,extreme_unseen_holdout,Travel,0.9988810746754757,False
+TXN fuel airindia payment,Travel,extreme_unseen_holdout,Travel,0.9688350024403604,False
+BANK ubER fuEl paYment,Travel,extreme_unseen_holdout,Travel,0.9772833738701973,False
+ola-fuel-payment CARD,Travel,extreme_unseen_holdout,Travel,0.9319382886322038,False
+ID-7018767505 NEFT metro:travel:payment_7195133,Travel,extreme_unseen_holdout,Travel,0.9238278613117147,False
+Ref*7498247125/fuel/payment/railway/DEBIT,Travel,extreme_unseen_holdout,Travel,0.9046925958420304,False
+POS payment travel indigo,Travel,extreme_unseen_holdout,Travel,0.9508460862077006,False
+hotel UPI Ref/6889883908 iocl booking,Travel,extreme_unseen_holdout,Travel,0.968435822312031,False
+payment BANK fuel redbus DR,Travel,extreme_unseen_holdout,Travel,0.9589197430980864,False
+Ref/9269300489 Metro Fuel Payment,Travel,extreme_unseen_holdout,Travel,0.991353579784453,False
+petrol rail ticket 97649871,Travel,extreme_unseen_holdout,Travel,0.9967244207235425,False
+UTR*4353784782*POS*flight*ticket*iocl,Travel,extreme_unseen_holdout,Travel,0.9598289152270706,False
+REF-7070224239/AIRPORT/FLIGHT/TICKET*48989060,Travel,extreme_unseen_holdout,Travel,0.9642204418132561,False
+AIriNdia_fUel_pAyment_24527072 ORDER,Travel,extreme_unseen_holdout,Travel,0.8875128012763897,False
+GOIBIBO RAIL TICKET/28907679,Travel,extreme_unseen_holdout,Travel,0.9793910452071534,False
+Ref*608765550 FARE CAB GOIBIBO-45084056,Travel,extreme_unseen_holdout,Travel,0.9722462745240201,False
+COMPLETED/58921065-booking-TXN-rail-ticket,Travel,extreme_unseen_holdout,Travel,0.9528410991588965,False
+ECS/booking/travel/payment,Travel,extreme_unseen_holdout,Travel,0.8849586708320538,False
+BANK ID*388652726 rail ticket bookimg:61272152,Travel,extreme_unseen_holdout,Travel,0.9387940703974457,False
+airindia/rail/tickeet ACCOUNT:30548555,Travel,extreme_unseen_holdout,Travel,0.8224043626568552,False
+UTR_9181252313 meetro cab fare CARD,Travel,extreme_unseen_holdout,Travel,0.9012129854706064,False
+ID 1202850592 MaKemYtriP hotel bOOKng,Travel,extreme_unseen_holdout,Travel,0.9674297288067445,False
+Uber Payment Ttravel Id:2291652058,Travel,extreme_unseen_holdout,Travel,0.9416170468570983,False
+Ref:1912001331 uber travel payment,Travel,extreme_unseen_holdout,Travel,0.9861774488311441,False
+UPI paayment ola travel,Travel,extreme_unseen_holdout,Travel,0.9377962308630133,False
+airiindia-flight-ticket,Travel,extreme_unseen_holdout,Travel,0.995601995847255,False
+POS tikcet*goibibo*rail ORDER,Travel,extreme_unseen_holdout,Travel,0.6203701549664222,False
+NACH redBUS_fligHt_tiCkEt,Travel,extreme_unseen_holdout,Travel,0.9797366305996349,False
+mAKEMyTRip/FAre/PAYMENT/caB,Travel,extreme_unseen_holdout,Travel,0.9413444085717958,False
+indigo travel payment DEBIT,Travel,extreme_unseen_holdout,Travel,0.9482021901486732,False
+Ref/6997068918_rapido_hotel_booking_SUCCESS_51676480,Travel,extreme_unseen_holdout,Travel,0.28396772811353516,True
+uber fuel payment CARD,Travel,extreme_unseen_holdout,Travel,0.9635888278835508,False
+UPI UTR-3021280195 Metro Fuel Payment_96495132 COMPLETED,Travel,extreme_unseen_holdout,Travel,0.8725586033887222,False
+Ref-7315590707/redbus/flight/ticket*89658340/ONLINE,Travel,extreme_unseen_holdout,Travel,0.88785340037516,False
+Neft-Rapido-Fuel-Payment PAID,Travel,extreme_unseen_holdout,Travel,0.9613817302011748,False
+goibibo*IMPS*fare*cab,Travel,extreme_unseen_holdout,Travel,0.9799029031409013,False
+airindia travelp ayment/33919165,Travel,extreme_unseen_holdout,Travel,0.9069435817608873,False
+TRAVEL INDIGO PAYMENT,Travel,extreme_unseen_holdout,Travel,0.9857689989123893,False
+oyo/flight/ticket,Travel,extreme_unseen_holdout,Travel,0.9595738465651408,False
+educationloan:installment:deduction-41070287,EMI,extreme_unseen_holdout,EMI,0.9853876669054783,False
+Upi Simpl Emi Ref_342650681 Payment*13511433,EMI,extreme_unseen_holdout,EMI,0.9747549970275994,False
+ECS vehiclefinance:loan:installment,EMI,extreme_unseen_holdout,EMI,0.99569810343219,False
+Creditcard Loan Payment/41598503,EMI,extreme_unseen_holdout,EMI,0.9580660976479463,False
+BANK Ref*3349753437*vehilefinance*monthly*repayment 13320378,EMI,extreme_unseen_holdout,EMI,0.9660436778052824,False
+Ref 9332303022 personalloan-loan-payment-68431971 MERCHANT,EMI,extreme_unseen_holdout,EMI,0.866855122805897,False
+Utr_2968262277_Creditcard_Mothly_Repayment,EMI,extreme_unseen_holdout,EMI,0.9040542671923024,False
+bnpL*motNhLY*rePAYment-75357683,EMI,extreme_unseen_holdout,EMI,0.9349601189578715,False
+ECS Ecs*auto*DeBit*13907274,EMI,extreme_unseen_holdout,EMI,0.9363219315738018,False
+Ref 40890843 Nach Monthly Repayment,EMI,extreme_unseen_holdout,EMI,0.9460327666666264,False
+nach loan payment-35805714,EMI,extreme_unseen_holdout,EMI,0.9760373667176052,False
+bnpL-loAn-InStALlMENt-PID-96628120,EMI,extreme_unseen_holdout,EMI,0.9963585552473674,False
+ID:9313500591 deductionb ikeloan installment,EMI,extreme_unseen_holdout,EMI,0.9961859645849379,False
+ID-8344610035 NEFT BNPL INSTALLMENT DEDUCTION COMPLETED,EMI,extreme_unseen_holdout,EMI,0.9722944278984783,False
+moRtGage repaynenT MonthlY ORDER,EMI,extreme_unseen_holdout,EMI,0.8117283520617605,False
+POS Monthly Nach Repayment,EMI,extreme_unseen_holdout,EMI,0.8614680326832629,False
+POS PERSONALLOAN MONTHLY REPAYMENT*61970271,EMI,extreme_unseen_holdout,EMI,0.9461000744150493,False
+IMPS ID 8274481785 homeloan monhly repayment DEBIT 48347810,EMI,extreme_unseen_holdout,EMI,0.9758854946138579,False
+paylater PAID TXN monthly repayment UTR_5438794415,EMI,extreme_unseen_holdout,EMI,0.9501384492805113,False
+TXN bAjAJFiNANcE loaN pAymENt_87831849 DR,EMI,extreme_unseen_holdout,EMI,0.9554712833598467,False
+NACH hoMELoAn MOntHly RepaymEnt_86233900,EMI,extreme_unseen_holdout,EMI,0.9738855262638618,False
+mortgage:inatallment:deduction,EMI,extreme_unseen_holdout,EMI,0.9777489751711015,False
+Ref-9537431280 Txn/Bikeloan/Payment/Emi,EMI,extreme_unseen_holdout,EMI,0.9345807300155238,False
+educationloan installment loan ECS**26585320,EMI,extreme_unseen_holdout,EMI,0.9916526313498404,False
+NEFT simpl:monthly:repaymment,EMI,extreme_unseen_holdout,EMI,0.8484113344287847,False
+UTR-1413828708-nAch-monthLy-rePAyMEn-81034179,EMI,extreme_unseen_holdout,EMI,0.8784367099060981,False
+homeloan emi payment ONLINE/76439649,EMI,extreme_unseen_holdout,EMI,0.9767562225163879,False
+IMPS Ref_1444598745 mortgage installment deduction 70629821,EMI,extreme_unseen_holdout,EMI,0.9875693753686626,False
+NEFT REF_2258785689 CREDITCARD INSTALLMENT DEDUCTION,EMI,extreme_unseen_holdout,EMI,0.9840276363542197,False
+Utr:7742619700-Bajajfinance-Emi-Payment-Success,EMI,extreme_unseen_holdout,EMI,0.9785274365807698,False
+UTR*8658064967 bajajfinance installlment deduction,EMI,extreme_unseen_holdout,EMI,0.9833823218660558,False
+auto educationloan debit_1767526 PAID,EMI,extreme_unseen_holdout,EMI,0.9346631945847587,False
+ID:9764680771 bnpl emi payment CHARGE,EMI,extreme_unseen_holdout,EMI,0.9770477693527294,False
+UTR_5495197846 IMPS ecs loan installment:93488926,EMI,extreme_unseen_holdout,EMI,0.9804148958819818,False
+UTR*4784265242 nach loan installment DR/85243262,EMI,extreme_unseen_holdout,EMI,0.9931374087304056,False
+ID_6410746346 NACH SIMpl loan InsTallmeNT,EMI,extreme_unseen_holdout,EMI,0.9841721635614074,False
+SIMpl EmI PaymEnt*118015443 COMPLETED,EMI,extreme_unseen_holdout,EMI,0.9286525681969929,False
+mortgage/loan/installment,EMI,extreme_unseen_holdout,EMI,0.9905107051514246,False
+TXN:UTR:8336221638:caRLoAn:lOaN:PAymEnt,EMI,extreme_unseen_holdout,EMI,0.9625368544022679,False
+NCAH payment_11596344 emi installment,EMI,extreme_unseen_holdout,EMI,0.9764691901972313,False
+debit lendIngkaRT UTR_6471477599 AUtO_23748357,EMI,extreme_unseen_holdout,EMI,0.9277598539681527,False
+PAYmenT eI bajajfInAnCE-17447865,EMI,extreme_unseen_holdout,EMI,0.821779331355172,False
+monthly repayment/40115139 emi,EMI,extreme_unseen_holdout,EMI,0.9965070555243846,False
+UPI personalloan/monthly/repayment,EMI,extreme_unseen_holdout,EMI,0.9099363935889083,False
+installment/528565 TXN loan nortgage,EMI,extreme_unseen_holdout,EMI,0.9936660544642548,False
+educatIoNloAn MERCHANT-64563922 payment LOAn Ref:7173827576,EMI,extreme_unseen_holdout,EMI,0.8481426307151898,False
+emi UTR*1785974147 payment loan,EMI,extreme_unseen_holdout,EMI,0.9978125799076649,False
+emi auto debit TXN,EMI,extreme_unseen_holdout,EMI,0.9975672606304213,False
+eMI paymEnt/29645993 moRTgaGe,EMI,extreme_unseen_holdout,EMI,0.9932981441005979,False
+UTR:2731639706 nbpl loan payment,EMI,extreme_unseen_holdout,EMI,0.9737521151491384,False
+Neft Ref_3164504335 Lendingkart Auto Debit,EMI,extreme_unseen_holdout,EMI,0.9551179643121676,False
+emi*loan*installment,EMI,extreme_unseen_holdout,EMI,0.9994791248977792,False
+IMPS bikeloan eim payment:71936278,EMI,extreme_unseen_holdout,EMI,0.7304363447168822,False
+installmet/emi/payment*2893602 CHARGE,EMI,extreme_unseen_holdout,EMI,0.9603102420302965,False
+Debit Educationloan Auto,EMI,extreme_unseen_holdout,EMI,0.9764020380466908,False
+emi emi ppayment 24961225,EMI,extreme_unseen_holdout,EMI,0.9979079229333022,False
+UTR*2805876815 bajajfinance loan installmnt PAID_78885103,EMI,extreme_unseen_holdout,EMI,0.9659888115368874,False
+emi installment deduction ONLINE,EMI,extreme_unseen_holdout,EMI,0.9932369266699818,False
+naCh auTo DEbit COMPLETED 291593,EMI,extreme_unseen_holdout,EMI,0.877689158455935,False
+ID/7265602732/emi/emi/payment ORDER,EMI,extreme_unseen_holdout,EMI,0.8979877325935881,False
+Bnpl Loan Payment Merchant,EMI,extreme_unseen_holdout,EMI,0.9257996324511293,False
+mortgage*losn*payment*BANK_28319722,EMI,extreme_unseen_holdout,EMI,0.7685040993221994,False
+ID 8675421261 BAJAJFINANCE_AUTO_DEBIT*64294549,EMI,extreme_unseen_holdout,EMI,0.9861125055152317,False
+ReF-9124528924-UPI-nacH-loA-paymeNt,EMI,extreme_unseen_holdout,EMI,0.5575658361771371,True
+payment creditcard loan*78316793,EMI,extreme_unseen_holdout,EMI,0.9600499983201083,False
+installmnt mortgage loan REF,EMI,extreme_unseen_holdout,EMI,0.988681760480184,False
+UTR:6639156051 LENDINGKART AUTO DEBIT,EMI,extreme_unseen_holdout,EMI,0.9491529760062093,False
+POS leNDingKaRt INsTaLlmeNT DeDuCtiON,EMI,extreme_unseen_holdout,EMI,0.9557419608763503,False
+IMPS UTR:7038484339 CARLOANEMI PAYMENT,EMI,extreme_unseen_holdout,EMI,0.5259328640524138,True
+caloan-loan-installment*57779352,EMI,extreme_unseen_holdout,EMI,0.9997926503103891,False
+UTR_2723167646 NEFT consumerloan monthly repayment,EMI,extreme_unseen_holdout,EMI,0.9646913851211476,False
+LENDINGKART LOAN INSTALLMENT ORDER/82686940,EMI,extreme_unseen_holdout,EMI,0.9805277703449249,False
+consumerloan_repament/53423069_monthly_BANK,EMI,extreme_unseen_holdout,EMI,0.9406037129962753,False
+NACH pErSOnAlLOan LoAn paYmEnT:99341153,EMI,extreme_unseen_holdout,EMI,0.9536774009948582,False
+auto paylater debti,EMI,extreme_unseen_holdout,EMI,0.9195110537196126,False
+POS loan bajajfinance installment:18207249,EMI,extreme_unseen_holdout,EMI,0.9919948426399965,False
+Ref 4145360130 Homeloan_Looan_Installment,EMI,extreme_unseen_holdout,EMI,0.9777582662432219,False
+ID:3841497322 ecs installment deduction CHARGE,EMI,extreme_unseen_holdout,EMI,0.9717728653980118,False
+debit:82207121 auto NACH homeloan,EMI,extreme_unseen_holdout,EMI,0.9877687774999957,False
+Paylater/Emi/Pyament/Card,EMI,extreme_unseen_holdout,EMI,0.8385732838060319,False
+IMPS ConsuMeRLoSn:LOaN:inStallmENt,EMI,extreme_unseen_holdout,EMI,0.9964601377352421,False
+ID_4444011564 TXN:debit:nach:auto:26053336,EMI,extreme_unseen_holdout,EMI,0.8291435938300722,False
+Ref_1229042467 veHiclEfInAnce/InSTallmENt//deDUCTion CARD,EMI,extreme_unseen_holdout,EMI,0.9602217707175662,False
+Educationloan-Installment-Deduction-PAYMENT_62068308,EMI,extreme_unseen_holdout,EMI,0.9728691633040458,False
+Ref_7172916806 BANK EMI/INSTALLMENT/DEDUCTION/MERCHANT,EMI,extreme_unseen_holdout,EMI,0.9563914578000292,False
+UTR-1497798663 BNPL MONTHLY REPAYMENT ACCOUNT*98743965,EMI,extreme_unseen_holdout,EMI,0.9534923937636257,False
+NEFT carloan emi payment PAID,EMI,extreme_unseen_holdout,EMI,0.9776800851838263,False
+ID 5036766112 POS bNPL_loAn_paymENt DR,EMI,extreme_unseen_holdout,EMI,0.7542272989328128,False
+ID-3189249301 creditcard auto debit*37632064,EMI,extreme_unseen_holdout,EMI,0.965005968371781,False
+UTR:3945342403 creditcard*emi*payment MERCHANT,EMI,extreme_unseen_holdout,EMI,0.94424731859813,False
+PAYMENT ID_7333175313 EDUCATIONLOAN BANK PAYMENT EMI,EMI,extreme_unseen_holdout,EMI,0.9280823343357734,False
+ID/1132677946 Ecs Emi Paymemt Account,EMI,extreme_unseen_holdout,EMI,0.870252765039531,False
+UPI InsTallmEnT_DEDuctiON_HomeLOan ONLINE,EMI,extreme_unseen_holdout,EMI,0.9889678113768537,False
+LENDINGKART-INSTALLMENT-DEDUCTION:93587000-PAID,EMI,extreme_unseen_holdout,EMI,0.9743812051255487,False
+Ref_5998149901-Personalloan-Emi-Payment,EMI,extreme_unseen_holdout,EMI,0.9862955497432842,False
+CONSUMERLOAN DEBIT AUTO,EMI,extreme_unseen_holdout,EMI,0.9839622320178079,False
+UTR-9718515888 IMPS educationloan emi payment-62801608 SUCCESS,EMI,extreme_unseen_holdout,EMI,0.9437882516309136,False
+ID:9392707018 UPI cArloAn LoAn instaLlmENT CARD,EMI,extreme_unseen_holdout,EMI,0.9957388465146157,False
+veHICleFiNanCe mOntHly rePAYmeNT MERCHANT:19161283,EMI,extreme_unseen_holdout,EMI,0.9656073932975957,False
+UTR:117590313 homeloan installment deduction,EMI,extreme_unseen_holdout,EMI,0.9923018190808144,False
+SIP ACCOUNT CONTRIBUTION,Investment,extreme_unseen_holdout,Investment,0.9937963409785905,False
+ID_384121355 NEFT_Etf_Booking,Investment,extreme_unseen_holdout,Investment,0.7138014016499534,False
+ID 5899841381 NACH equity sip contribution:40964889,Investment,extreme_unseen_holdout,Investment,0.9951042577835424,False
+Ref*7141760166 ACCOUNT CONTRIBUTION MUTUALFUND CARD,Investment,extreme_unseen_holdout,Investment,0.9717007167208019,False
+ID 1944473382 sHarE SinVEstmEnt REF,Investment,extreme_unseen_holdout,Investment,0.9490280695196023,False
+NEFT ONLINE upstox contribution sip-87058379,Investment,extreme_unseen_holdout,Investment,0.9782507839976573,False
+purchase_groww_NACH,Investment,extreme_unseen_holdout,Investment,0.6484548930648151,False
+NEFT sharse*purchase-30830619*SUCCESS,Investment,extreme_unseen_holdout,Investment,0.60402482177162,False
+BANK Ref_625560683 angeline purchase DR,Investment,extreme_unseen_holdout,Investment,0.4674876978164943,True
+IMPS UTR:7501108637-securities-equity-delivery CHARGE,Investment,extreme_unseen_holdout,Investment,0.967479113374255,False
+Demat*Sip*Contribution Success,Investment,extreme_unseen_holdout,Investment,0.9905816213472954,False
+Ref*5763932271 stocKs:pUrChase:63588467 COMPLETED,Investment,extreme_unseen_holdout,Investment,0.5598181746139433,True
+Zerodha*Investment*Upi*62295374,Investment,extreme_unseen_holdout,Investment,0.9814727296214124,False
+NACH upstOx sip ContrIbUtIoN PAID,Investment,extreme_unseen_holdout,Investment,0.9791074082366643,False
+shares:quity:delivery,Investment,extreme_unseen_holdout,Investment,0.9764267676492844,False
+ID 9069314862 equity:equity:delivery:36115177,Investment,extreme_unseen_holdout,Investment,0.985581538300671,False
+account etf ocntribution 59023137,Investment,extreme_unseen_holdout,Investment,0.9716428235615481,False
+Utr:4126088213 Fd Account Contribution,Investment,extreme_unseen_holdout,Investment,0.9918841158574206,False
+Ref_3188050342 BANK_securities_booking_REF,Investment,extreme_unseen_holdout,Investment,0.882420342155025,False
+NEFT DEMAT CONTRBIUTION ACCOUNT,Investment,extreme_unseen_holdout,Investment,0.8870544233227258,False
+SECURITIES-PURCHASE,Investment,extreme_unseen_holdout,Investment,0.9033693714791099,False
+UPI ID booking bond 6197420366,Investment,extreme_unseen_holdout,Investment,0.783925036679028,False
+TXN EQUITY DELIVERY Ref*4905538884 PORTFOLIO,Investment,extreme_unseen_holdout,Investment,0.9830604783036083,False
+puurchase-upstox-11722577-REF,Investment,extreme_unseen_holdout,Investment,0.8072479284776527,False
+INVESTMENT COMPLETED*88962372 ZERODHA,Investment,extreme_unseen_holdout,Investment,0.9589336458923209,False
+mutualfund:contribution:sip:DEBIT,Investment,extreme_unseen_holdout,Investment,0.9914451941069482,False
+UTR_4054860152 booking equit_66847082,Investment,extreme_unseen_holdout,Investment,0.7569178806939293,False
+delivery equity fixeddeposit_60487757,Investment,extreme_unseen_holdout,Investment,0.9788458001140882,False
+Recurringdeposit Sip Contibution,Investment,extreme_unseen_holdout,Investment,0.9806080826451882,False
+investment fd SUCCESS,Investment,extreme_unseen_holdout,Investment,0.9877242530926159,False
+Pf Account Contribution,Investment,extreme_unseen_holdout,Investment,0.982837711713645,False
+demt booking,Investment,extreme_unseen_holdout,Investment,0.6218153765659135,False
+Sip Contributoon Mutualfund Order,Investment,extreme_unseen_holdout,Investment,0.9617155686189819,False
+contribution_30932089 bond ID/8046129054 account,Investment,extreme_unseen_holdout,Investment,0.9698666047426253,False
+recurringdeposit:purchase:ORDER/28620863,Investment,extreme_unseen_holdout,Investment,0.7769900187836648,False
+ID/9411533996/SHarees/AcCounT/coNTrIButiON*69432736,Investment,extreme_unseen_holdout,Investment,0.9320825106993864,False
+zerodha sip conTRIbution SUCCESS,Investment,extreme_unseen_holdout,Investment,0.9890350614448975,False
+IMPS zerodhA ACCOunt cONTribUTiON,Investment,extreme_unseen_holdout,Investment,0.986575795608602,False
+ID:9279028378/upstox/contribution/sip:95309538,Investment,extreme_unseen_holdout,Investment,0.9824859746520217,False
+UTR:2469264637 POS sip account contribution,Investment,extreme_unseen_holdout,Investment,0.9504329020865716,False
+CARD eqiuty purchase,Investment,extreme_unseen_holdout,Investment,0.5068376108474902,True
+SHARES INVESTMENT/94437873,Investment,extreme_unseen_holdout,Investment,0.9858824577482964,False
+sip contribution-4756881 shares SUCCESS,Investment,extreme_unseen_holdout,Investment,0.9909096125558944,False
+RwcuRringDePosIT BoOking,Investment,extreme_unseen_holdout,Investment,0.8975376630284364,False
+ID IMPS EQUITY DELIVERY RECRURINGDEPOSIT 388977214,Investment,extreme_unseen_holdout,Investment,0.9808166025924403,False
+IMPS:etf:investment,Investment,extreme_unseen_holdout,Investment,0.9724012684439932,False
+ID:5134763291 zerodha account contribution PAID,Investment,extreme_unseen_holdout,Investment,0.9797746095126069,False
+NACH UTR*7091452528 ppf sip contribution PAYMENT,Investment,extreme_unseen_holdout,Investment,0.9647898072233407,False
+portfolioo investment TXN,Investment,extreme_unseen_holdout,Investment,0.9624027819001371,False
+ID-6041481779 NEFT angelone sip contriubtion/28745408 REF,Investment,extreme_unseen_holdout,Investment,0.9003101541644662,False
+TXN-67303415 IMPS account contribution ppf,Investment,extreme_unseen_holdout,Investment,0.9738879362836798,False
+portfolio Sip conTributIoN,Investment,extreme_unseen_holdout,Investment,0.9922315740745142,False
+UTR/9945887015 UPI bond/equity/delivery*50508019,Investment,extreme_unseen_holdout,Investment,0.9040641381811428,False
+bond-delivery_41354464-equity-PAID,Investment,extreme_unseen_holdout,Investment,0.9761655530857849,False
+Ref-9404335470 upstox--contribution-account,Investment,extreme_unseen_holdout,Investment,0.9868085331766897,False
+INVESTMENT/ACCOUNT/UPSTOX-86372752,Investment,extreme_unseen_holdout,Investment,0.9497359182651495,False
+IMPS ID/486371251 secUrItiEs eqUItY deliVerY/29799874 REF,Investment,extreme_unseen_holdout,Investment,0.9676472605103089,False
+ID*7306060336/BANK/GRoWW/eQuITy/delivery_98754135,Investment,extreme_unseen_holdout,Investment,0.8798048096125815,False
+FIXEDdEpOsiT eQUITy dElIVery DEBIT,Investment,extreme_unseen_holdout,Investment,0.9861040729565881,False
+ID_8900982702*groww*account*contribution_69997873*ACCOUNT,Investment,extreme_unseen_holdout,Investment,0.9487178322699927,False
+Zerodha Sip Contribution*4257712 Paid,Investment,extreme_unseen_holdout,Investment,0.9916441808346784,False
+UTR/8729448224 Demat Sip Contribution MERCHANT:7395539,Investment,extreme_unseen_holdout,Investment,0.9895052545376878,False
+POS UTR*9980390409*etfequity*delivery*SUCCESS,Investment,extreme_unseen_holdout,Investment,0.6773568928647624,False
+TXN SIP PURCHASE REF,Investment,extreme_unseen_holdout,Investment,0.8026368970418002,False
+Upi Bond Sip Cnotribution,Investment,extreme_unseen_holdout,Investment,0.9761269238448862,False
+Ref 3142942887 NACH sharesi nvestment COMPLETED,Investment,extreme_unseen_holdout,Investment,0.7083108458487338,False
+investment nps ONLINE,Investment,extreme_unseen_holdout,Investment,0.965106124466471,False
+fixeddeposit purchase MERCHANT,Investment,extreme_unseen_holdout,Investment,0.8598383567694328,False
+Angelone Investment,Investment,extreme_unseen_holdout,Investment,0.9792333118919992,False
+Securities:Account:Contributiion-34510837,Investment,extreme_unseen_holdout,Investment,0.9584653471763268,False
+equity-booking,Investment,extreme_unseen_holdout,Investment,0.9747405578185375,False
+GROWW BOOKING*36238232 ACCOUNT,Investment,extreme_unseen_holdout,Investment,0.9191294480232591,False
+ID-4852898205 sip_sip_contribution-13556669,Investment,extreme_unseen_holdout,Investment,0.9936282391104024,False
+ECS Ref demat 989669185 purchase ONLINE,Investment,extreme_unseen_holdout,Investment,0.6076233179495134,False
+Ref/5482420014 securities:account:contribution,Investment,extreme_unseen_holdout,Investment,0.9846153922234486,False
+ECS Booking Groww Order:59799102,Investment,extreme_unseen_holdout,Investment,0.7742871327500158,False
+COnTribUtiOn-28525711 BoNd accouNT BANK,Investment,extreme_unseen_holdout,Investment,0.9788858519279328,False
+FD sipp ContribuTion ONLINE,Investment,extreme_unseen_holdout,Investment,0.9930987080449258,False
+sharees purchase/15182698,Investment,extreme_unseen_holdout,Investment,0.6953328972509709,False
+sp purchase:85130795,Investment,extreme_unseen_holdout,Shopping,0.6094464241435196,False
+NEFT SECURITIES*BOOKING*DEBIT,Investment,extreme_unseen_holdout,Investment,0.8637247692179619,False
+shAres Sip CoNTirbutIon REF 95172217,Investment,extreme_unseen_holdout,Investment,0.9837742975980794,False
+UTR*1998018140 ECS secruities sip contribution,Investment,extreme_unseen_holdout,Investment,0.9899373456390826,False
+UTR:6903052029 nps booking*58693985 PAID,Investment,extreme_unseen_holdout,Investment,0.9655693022054843,False
+swcurities investment*52624194,Investment,extreme_unseen_holdout,Investment,0.9853399911206239,False
+UTR*6421725764 bond investment PAID,Investment,extreme_unseen_holdout,Investment,0.9616123371108523,False
+equity/account/contribution PAID NACH 22102103,Investment,extreme_unseen_holdout,Investment,0.9465996345545452,False
+UPSTOX-EQUITY-DELIVERY-ACCOUNT*43164610,Investment,extreme_unseen_holdout,Investment,0.9844089852160185,False
+UTR 5901021966 ECS/nps/account/contribution:86373148,Investment,extreme_unseen_holdout,Investment,0.9707299654465132,False
+ECS EQuiTy PUrchase*92523224,Investment,extreme_unseen_holdout,Investment,0.9385938978327325,False
+TXN Etf Investmeent,Investment,extreme_unseen_holdout,Investment,0.9012529376959854,False
+UTR-4665743851 ppf equity delivery,Investment,extreme_unseen_holdout,Investment,0.983468654202171,False
+Id:875772617-Pos-Fd-Equity-Delivery*89829023,Investment,extreme_unseen_holdout,Investment,0.9683399342523772,False
+NEFT Utr*853370355 Fixeddeposit Booking-2423960,Investment,extreme_unseen_holdout,Investment,0.9101839004746346,False
+Ref:3059516828 NACH ACCOUNT UPSTOX CONTRIBUTION DEBIT,Investment,extreme_unseen_holdout,Investment,0.9482585599584529,False
+POS fd account ID:7971187256 contribution,Investment,extreme_unseen_holdout,Investment,0.9694335718345904,False
+NACH Bond_Account_Contribution 63097793,Investment,extreme_unseen_holdout,Investment,0.9763006384045616,False
+mutualfund_equity_delivery_OCMPLETED,Investment,extreme_unseen_holdout,Investment,0.9802725642788023,False
+investment securities DR_83704438,Investment,extreme_unseen_holdout,Investment,0.9501601363741806,False
+BANK ID/9776479638 sip contribution etf PAYMENT:1669681,Investment,extreme_unseen_holdout,Investment,0.9616560184176786,False
+furnitrue retail purchase*59519160,Shopping,extreme_unseen_holdout,Shopping,0.9832617189808561,False
+POS TXN Ref_441660803 shopping payment:27220912 furniture,Shopping,extreme_unseen_holdout,Shopping,0.9627333632855467,False
+meesho:online:order:DR,Shopping,extreme_unseen_holdout,Shopping,0.9709464374241219,False
+BANK PAYMENT SHPPING AMAZON CHARGE,Shopping,extreme_unseen_holdout,Shopping,0.8235940649851682,False
+titan shopping payment 41248007,Shopping,extreme_unseen_holdout,Shopping,0.9733939320389831,False
+Tanishq POS poDuct PUrChase,Shopping,extreme_unseen_holdout,Shopping,0.9124367754741567,False
+ID/847856065 order amazon online:60464870,Shopping,extreme_unseen_holdout,Shopping,0.9897075461789282,False
+ID-550097437 TXN clothing card purchase CHARGE,Shopping,extreme_unseen_holdout,Shopping,0.9403903911922559,False
+NEFT tanishq product purchase,Shopping,extreme_unseen_holdout,Shopping,0.9822522956102456,False
+TXN card purchase laptop_64887659,Shopping,extreme_unseen_holdout,Shopping,0.9378071190470353,False
+tanishq retail purchase REF*39412598,Shopping,extreme_unseen_holdout,Shopping,0.9773942110375524,False
+purchase clothing retail 62759412,Shopping,extreme_unseen_holdout,Shopping,0.9927822346314787,False
+TNX AJiO oNLine ORdER:2512395,Shopping,extreme_unseen_holdout,Shopping,0.9831827202151079,False
+purchase 67659472 card laptop NEFT SUCCESS,Shopping,extreme_unseen_holdout,Shopping,0.886078275699288,False
+UTR/1194619817 DECathlON Card pUrCHase MERCHANT-48660630,Shopping,extreme_unseen_holdout,Shopping,0.9530816371704862,False
+Pruchase*19999460 Clothing Retail Txn,Shopping,extreme_unseen_holdout,Shopping,0.9324667794161065,False
+furniture:ONLINE:purchase:retail:UTR_66932329,Shopping,extreme_unseen_holdout,Shopping,0.9839164374894525,False
+TANISHQ/ONLINE/ORDER/53531343,Shopping,extreme_unseen_holdout,Shopping,0.9191045734940396,False
+IMPS FURNITURE-PRODUCT-PURCHASE 47072733,Shopping,extreme_unseen_holdout,Shopping,0.9796223510611356,False
+Card Meesho Upi 73228711 Purchase ONLINE,Shopping,extreme_unseen_holdout,Shopping,0.9727919077713235,False
+UTR*4908730400 FLIPKART ONLINE ORDER COMPLETED,Shopping,extreme_unseen_holdout,Shopping,0.9481497496651059,False
+ECS meesho:order:payment,Shopping,extreme_unseen_holdout,Shopping,0.9440968171882415,False
+CROMA CARD PURCHASE COMPLEED,Shopping,extreme_unseen_holdout,Shopping,0.9657087739714707,False
+ECS Ref_1253678138 Laptop Shoppong Payment,Shopping,extreme_unseen_holdout,Shopping,0.8023745243592877,False
+NACH croma:card:purchase,Shopping,extreme_unseen_holdout,Shopping,0.9815368562630308,False
+Ref 902378927 titan olnine order/84534896,Shopping,extreme_unseen_holdout,Shopping,0.8411165250521808,False
+retail reliancedigital uprchase-27193264 PAYMENT,Shopping,extreme_unseen_holdout,Shopping,0.9659661926122474,False
+ID-5606788231/PAYMENT_19851802/ORDER/RELIANCEDIGITAL,Shopping,extreme_unseen_holdout,Shopping,0.7838867069972569,False
+NEFT Ref*7001771004*myntra*online*order,Shopping,extreme_unseen_holdout,Shopping,0.9755345572882932,False
+purchase-clothing-card-ID-4167328664-TXN-44707425,Shopping,extreme_unseen_holdout,Shopping,0.9558060066996178,False
+clothing/retail/purchase,Shopping,extreme_unseen_holdout,Shopping,0.9662922015746438,False
+ECS ecommerce*product*purcase CHARGE*96635013,Shopping,extreme_unseen_holdout,Shopping,0.9171765288078823,False
+ID/3384694181 ECS myntra:shopping:payment,Shopping,extreme_unseen_holdout,Shopping,0.9586023065392553,False
+ID-4552913058 POS ikea card purchase,Shopping,extreme_unseen_holdout,Shopping,0.8894306695132899,False
+ID_7510452114 CLOTHING CARD PURCHASE DR,Shopping,extreme_unseen_holdout,Shopping,0.9049814394858543,False
+deCathloN-ProdUcT-pUrchAse*83141696,Shopping,extreme_unseen_holdout,Shopping,0.9866271163137652,False
+payyment*order*flipkart*ONLINE*UTR_3650358050,Shopping,extreme_unseen_holdout,Shopping,0.8891497069604256,False
+ID/2233132949 ORDER ECS PAYMENT ELECTRONICS,Shopping,extreme_unseen_holdout,Shopping,0.9582659692754797,False
+titan*order*paymennt,Shopping,extreme_unseen_holdout,Shopping,0.8447234371389082,False
+clothing/online/ordeer COMPLETED,Shopping,extreme_unseen_holdout,Shopping,0.7668372654651572,False
+BANK-flipkart-order-payment ID_1923897611,Shopping,extreme_unseen_holdout,Shopping,0.8163619244097395,False
+Ref-190239477 Appliance-Product-Purchase,Shopping,extreme_unseen_holdout,Shopping,0.9888700963089033,False
+POS reliancedigital order paymment,Shopping,extreme_unseen_holdout,Shopping,0.8123545845649713,False
+ID:9970114943 Tanishq_Online_Order MERCHANT-34877297,Shopping,extreme_unseen_holdout,Shopping,0.9608627876660564,False
+TXN/ID_1279289881/FliPkART/OnliNe/OrdEr/ORDER,Shopping,extreme_unseen_holdout,Shopping,0.8504435438738829,False
+POS shopping apyment ikea*71861772,Shopping,extreme_unseen_holdout,Shopping,0.8350344047558289,False
+Payment Pos Ref:8024647540 CHARGE Order Amazon,Shopping,extreme_unseen_holdout,Shopping,0.7643444526988554,False
+Myntra Retail Purchase,Shopping,extreme_unseen_holdout,Shopping,0.9865116548450883,False
+online cothing order:40117461 ONLINE,Shopping,extreme_unseen_holdout,Shopping,0.9727466986726763,False
+UPI flipkart product purchase-25022780,Shopping,extreme_unseen_holdout,Shopping,0.9769327942725713,False
+UTR:9377060046 myntra:online:order:ONLINE,Shopping,extreme_unseen_holdout,Shopping,0.9859603970340889,False
+NACH ID*209612927 taNISHq shoPpIng PaYmenT_73943917 ORDER,Shopping,extreme_unseen_holdout,Shopping,0.9814645442903902,False
+titan*product*puurchase PAID,Shopping,extreme_unseen_holdout,Shopping,0.9366425361857416,False
+croma*product*UPI*purchase,Shopping,extreme_unseen_holdout,Shopping,0.9618014387164071,False
+ECS*ID/2463973407*meesho*product*purchase,Shopping,extreme_unseen_holdout,Shopping,0.9731637292255212,False
+Ikea:Order:Payment:Order,Shopping,extreme_unseen_holdout,Shopping,0.8843751914931202,False
+UTR:9043786263 furniture order payment,Shopping,extreme_unseen_holdout,Shopping,0.945180244242134,False
+IMPS:nykaa:card:purchase/82320266,Shopping,extreme_unseen_holdout,Shopping,0.9406179614811127,False
+BANK UTR*4690514055 aJjio retail PurChase,Shopping,extreme_unseen_holdout,Shopping,0.9469324783634542,False
+Flipkart Purchase Product,Shopping,extreme_unseen_holdout,Shopping,0.9847508248066839,False
+ID 2589998048 PAYMENT:83223748 SHOPPING IKEA,Shopping,extreme_unseen_holdout,Shopping,0.9344371562842486,False
+ECS APPLIANCE ONLINE ORDER 60604209 DEBIT,Shopping,extreme_unseen_holdout,Shopping,0.9413199066886213,False
+UTR-8755951997 laptop shopping payment_83486973,Shopping,extreme_unseen_holdout,Shopping,0.9338895448733466,False
+ID*5013942233-meesho-retail-purchase,Shopping,extreme_unseen_holdout,Shopping,0.9781080867707486,False
+pAymenT:61117002 MEESho ONLINE shopping,Shopping,extreme_unseen_holdout,Shopping,0.988269129355966,False
+UTR5:974889068 AMAZoN Online ORDeR,Shopping,extreme_unseen_holdout,Shopping,0.9903945344486632,False
+order ONLINE PAYmEnT-35730945 aMAziN,Shopping,extreme_unseen_holdout,Shopping,0.9378241013706241,False
+ID/7094317889 ECS PRODUCT RETAIL PURCHASE REF,Shopping,extreme_unseen_holdout,Shopping,0.977477811785342,False
+NEFT purchase mobilephone retail DEBIT*75895032,Shopping,extreme_unseen_holdout,Shopping,0.9317036347853754,False
+BANK-CLOTHING-SHOPPING-PAYMENT,Shopping,extreme_unseen_holdout,Shopping,0.9620751742520843,False
+UPI MOBILEPHONE CARD PURCHASE ONLINE*68936874,Shopping,extreme_unseen_holdout,Shopping,0.9567736262824392,False
+POS paYMent shOppINg ReTaIl DEBIT,Shopping,extreme_unseen_holdout,Shopping,0.9171757245503458,False
+ECOMMERCE CARD PURCHASE,Shopping,extreme_unseen_holdout,Shopping,0.9564101566008124,False
+reliancedigital retail purchase UTR*5054501158,Shopping,extreme_unseen_holdout,Shopping,0.9798522794396756,False
+MYNTRA/ONNLINE/ORDER*10061806,Shopping,extreme_unseen_holdout,Shopping,0.9163852383628409,False
+ID*4250622380 purchase card mobilephone:68944185,Shopping,extreme_unseen_holdout,Shopping,0.9465930317078549,False
+laptop product urchase PAYMENT*73203718,Shopping,extreme_unseen_holdout,Shopping,0.9279312232507864,False
+REF/7712394779 ONLINE ORDER RETAIL,Shopping,extreme_unseen_holdout,Shopping,0.9959639715650757,False
+reliancedigital_shopping_payment MERCHANT,Shopping,extreme_unseen_holdout,Shopping,0.9503185525495275,False
+Pos Flipkart Shopping Payment,Shopping,extreme_unseen_holdout,Shopping,0.944898534101058,False
+UTR*843847377 POS decathlon product purchse:67633513,Shopping,extreme_unseen_holdout,Shopping,0.9319666738765419,False
+UTR_1173416219 puRchASe EcomMeRCE rEtAiL,Shopping,extreme_unseen_holdout,Shopping,0.9616762148558441,False
+reliancedigital_shopping_payment_SUCCESS:18371856,Shopping,extreme_unseen_holdout,Shopping,0.9477418356178479,False
+reliancedigital/shpoping/payment,Shopping,extreme_unseen_holdout,Shopping,0.7540078656948233,False
+IMPS reliancedigital shopping paymennt,Shopping,extreme_unseen_holdout,Shopping,0.9269819691601148,False
+purchase/8769497 retail ecommerce,Shopping,extreme_unseen_holdout,Shopping,0.9741504042586311,False
+Purchase Laptop Product,Shopping,extreme_unseen_holdout,Shopping,0.9648405772261502,False
+UPI ID*5163018429 CLOTHING-CARD-PURCHASE REF,Shopping,extreme_unseen_holdout,Shopping,0.9319287107440745,False
+IMPS order ikea Ref*7727404171 online,Shopping,extreme_unseen_holdout,Shopping,0.9248026023116137,False
+ID 2650697257 NykAa reTail Purchase 76365225,Shopping,extreme_unseen_holdout,Shopping,0.9797285765232179,False
+POS online nykaa order_60860703,Shopping,extreme_unseen_holdout,Shopping,0.9096589423504967,False
+UPI reliancedigital_online_order 73829682,Shopping,extreme_unseen_holdout,Shopping,0.9629065329744239,False
+NACH ID-3496577408 ELECTRONICS RETAIL PURCHASE,Shopping,extreme_unseen_holdout,Shopping,0.9897948623715714,False
+NACH ID6018776276 tanishq retail purchase,Shopping,extreme_unseen_holdout,Shopping,0.9773467898806704,False
+appliANCe*prOduCT*puRcHASe,Shopping,extreme_unseen_holdout,Shopping,0.9888700963089033,False
+Nykaa Retail Purchase-87499615,Shopping,extreme_unseen_holdout,Shopping,0.980878665352461,False
+prodUCt MEeShO purchase,Shopping,extreme_unseen_holdout,Shopping,0.9888662058883961,False
+Ajoo:Order:Payment_97679601:ACCOUNT,Shopping,extreme_unseen_holdout,Shopping,0.5588013210068749,True
+clothingcard-purchase,Shopping,extreme_unseen_holdout,Shopping,0.9331232705149518,False
+TXN meesho card purchase:37207399,Shopping,extreme_unseen_holdout,Shopping,0.98008821115419,False

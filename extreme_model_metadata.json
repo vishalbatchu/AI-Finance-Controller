@@ -1,0 +1,9 @@
+{
+  "training_rows": 2478,
+  "extreme_holdout_rows": 500,
+  "extreme_holdout_accuracy": 0.996,
+  "low_confidence_extreme_cases": 10,
+  "feature_union": "word 1-3 + char_wb 2-6",
+  "confidence_threshold": 0.6,
+  "trained_mode": "extreme robust augmentation"
+}

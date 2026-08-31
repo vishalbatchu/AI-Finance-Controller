@@ -1,9 +1,14 @@
 {
-  "version": "retrained-20260822-063454",
-  "trained_at": "2026-08-22T06:34:54+00:00",
-  "training_rows": 1294,
+  "version": "extreme-robust-20260830",
+  "trained_at": "2026-08-31T19:07:30.113444+00:00",
+  "training_rows": 2478,
   "human_feedback_rows": 0,
   "latest_feedback_rows": 0,
   "learning_mode": "Automatic human-feedback learning enabled",
-  "held_out_test_accuracy": 0.9949
+  "feature_union": "word TF-IDF 1-3 + character TF-IDF char_wb 2-6",
+  "confidence_threshold": 0.6,
+  "extreme_holdout_rows": 500,
+  "extreme_holdout_accuracy": 0.996,
+  "original_stress_cases": 100,
+  "original_stress_accuracy": 1.0
 }
