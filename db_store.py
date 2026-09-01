@@ -68,7 +68,7 @@ class Store:
                 version VARCHAR(128) PRIMARY KEY, trained_at VARCHAR(64),
                 training_rows INTEGER, human_feedback_rows INTEGER,
                 latest_feedback_rows INTEGER, learning_mode TEXT,
-                model_blob BYTEA, vectorizer_blob BLOB, metadata TEXT
+                model_blob BYTEA, vectorizer_blob BYTEA, metadata TEXT
             )
             """
         ]
