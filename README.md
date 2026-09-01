@@ -1,6 +1,22 @@
-# AI Finance Controller — Razorpay AI Buildathon Track 04
+# AI Finance Controller - Razorpay AI Buildathon Track 04
 
 A Flask-based, human-in-the-loop finance-ops agent for a 50+ transaction synthetic settlement batch.
+
+## Pitch
+
+Finance controllers do not only need faster classification; they need a verified loop. This project classifies settlement transactions, auto-resolves confident records, exposes uncertain records as exceptions, captures human corrections, persists the audit trail, and retrains from verified feedback.
+
+Built for Razorpay Buildathon Track 04: AI Finance Controller.
+
+## Demo evidence
+
+- Bundled settlement batch: 70 synthetic transactions.
+- Exception threshold: predictions below 60% confidence require human review.
+- Bundled demo batch currently flags 1 exception out of 70 records.
+- Included stress artifact: `transaction_classifier_stress_results.csv`.
+- Current stress artifact result: 100/100 correct synthetic cases.
+- Production storage: Render PostgreSQL when `DATABASE_URL` is configured.
+- Local storage fallback: SQLite.
 
 ## Core loop
 
@@ -13,6 +29,25 @@ A Flask-based, human-in-the-loop finance-ops agent for a 50+ transaction synthet
 7. Ask natural-language questions against the current batch.
 8. Export human feedback or retrain the classifier with verified corrections.
 9. Report match rate, status/category mix, model stress-test performance, agent activity, and review outcomes.
+
+## Live health check
+
+After deployment, open:
+
+```text
+https://YOUR_RENDER_SERVICE_URL.onrender.com/api/health
+```
+
+Expected result:
+
+```json
+{
+  "ok": true,
+  "database_configured": true
+}
+```
+
+The exact `storage` value depends on the active backend. On Render it should indicate PostgreSQL; locally it should indicate SQLite fallback.
 
 ## Dashboard
 
