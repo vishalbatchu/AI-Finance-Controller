@@ -50,3 +50,17 @@ Manual category corrections are written to `human_feedback.csv`. Events are appe
 `transaction_classifier_stress_results.csv` contains 100 unseen-style synthetic transaction cases covering Food, Travel, EMI, Investment, and Shopping. The dashboard reports the measured result from that file separately from the live batch match rate.
 
 The live **match rate** is the percentage of current-batch transactions at or above the 60% confidence threshold; it is not presented as ground-truth accuracy.
+
+## Persistent storage (production-ready prototype)
+
+The app now includes a storage abstraction in `db_store.py`.
+- If `DATABASE_URL` is set, the application uses PostgreSQL for transactions, human feedback, audit events, and versioned model artifacts.
+- If `DATABASE_URL` is not set, local development automatically falls back to SQLite.
+- Existing CSV files remain useful as demo/import artifacts and are used to bootstrap an empty database.
+- Human corrections are persisted before model learning, so a training failure does not erase the admin decision.
+
+For Render, create a PostgreSQL database and set its connection string as the `DATABASE_URL` environment variable on the web service. No source-code secret is required.
+
+### ML safety improvements
+
+The classifier exposes a human-review decision for low-confidence predictions and close top-two probability margins. It also caps CSV uploads at 5,000 rows to keep the demo service responsive. The reported stress-test metrics are evaluation results on the project's synthetic holdout sets, not claims of universal production accuracy.

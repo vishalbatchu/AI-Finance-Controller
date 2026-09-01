@@ -1,6 +1,8 @@
 from pathlib import Path
 import io
 import json
+import os
+import pickle
 from datetime import datetime, timezone
 import threading
 
@@ -14,6 +16,7 @@ from sklearn.linear_model import LogisticRegression
 
 from settlement_qa import SettlementQA
 from classifier_utils import clean_transaction_text as clean_text
+from db_store import Store
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_FILE = BASE_DIR / "settlement_batch.csv"
@@ -32,6 +35,9 @@ ALLOWED_CATEGORIES = ["Food", "Travel", "EMI", "Investment", "Shopping"]
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 10 * 1024 * 1024
+app.config["MAX_UPLOAD_ROWS"] = 5000
+
+store = Store(BASE_DIR)
 
 
 @app.errorhandler(Exception)
@@ -44,8 +50,34 @@ def handle_unexpected_error(exc):
     raise exc
 
 
-model = joblib.load(MODEL_FILE)
-vectorizer = joblib.load(VECTORIZER_FILE)
+def _load_live_model():
+    latest = store.model_latest()
+    if latest and latest.get("model_blob") and latest.get("vectorizer_blob"):
+        try:
+            return pickle.loads(bytes(latest["model_blob"])), pickle.loads(bytes(latest["vectorizer_blob"]))
+        except Exception:
+            pass
+    return joblib.load(MODEL_FILE), joblib.load(VECTORIZER_FILE)
+
+
+model, vectorizer = _load_live_model()
+
+# Persist the baseline model artifact once when a database is configured. This means
+# future Render restarts can load the model from PostgreSQL instead of relying only
+# on the ephemeral service filesystem.
+try:
+    if store.model_latest() is None:
+        baseline_meta = {
+            "version": "baseline",
+            "trained_at": None,
+            "training_rows": 0,
+            "human_feedback_rows": 0,
+            "latest_feedback_rows": 0,
+            "learning_mode": "Automatic human-feedback learning enabled",
+        }
+        store.save_model("baseline", "1970-01-01T00:00:00+00:00", baseline_meta, pickle.dumps(model), pickle.dumps(vectorizer))
+except Exception:
+    pass
 
 
 def now_iso():
@@ -60,6 +92,14 @@ def load_model_metadata():
         "human_feedback_rows": 0,
         "learning_mode": "Human corrections are automatically incorporated into the next model version.",
     }
+    latest = store.model_latest()
+    if latest:
+        try:
+            default.update(json.loads(latest.get("metadata") or "{}"))
+            default["version"] = latest.get("version") or default["version"]
+            return default
+        except Exception:
+            pass
     if not MODEL_META_FILE.exists():
         return default
     try:
@@ -95,21 +135,41 @@ def log_event(event, **details):
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
     except OSError:
         pass
+    try:
+        store.audit(record)
+    except Exception:
+        pass
     return record
 
 
 def load_data():
-    df = pd.read_csv(DATA_FILE)
+    if store.transaction_count() > 0:
+        df = store.load_transactions()
+    else:
+        df = pd.read_csv(DATA_FILE)
+        if "original_category" not in df.columns:
+            df["original_category"] = df["category"]
+        if "classification_source" not in df.columns:
+            df["classification_source"] = "Model"
+        try:
+            store.replace_transactions(df)
+        except Exception:
+            pass
     if "date" in df:
         df["date"] = pd.to_datetime(df["date"], errors="coerce")
-    if "original_category" not in df.columns:
-        df["original_category"] = df["category"]
-    if "classification_source" not in df.columns:
-        df["classification_source"] = "Model"
     return df
 
 
 transactions = load_data()
+
+# One-time migration of any existing demo feedback into the persistent store.
+try:
+    if store.feedback_df().empty and FEEDBACK_FILE.exists():
+        existing_feedback = pd.read_csv(FEEDBACK_FILE)
+        for row in existing_feedback.fillna("").to_dict(orient="records"):
+            store.append_feedback(row)
+except Exception:
+    pass
 
 
 def classify_texts(texts):
@@ -123,9 +183,13 @@ def classify_texts(texts):
         ranked = sorted(zip(classes, probs), key=lambda item: item[1], reverse=True)
         confidence = float(ranked[0][1])
         second = float(ranked[1][1]) if len(ranked) > 1 else 0.0
+        review_required = confidence < CONFIDENCE_THRESHOLD or (confidence - second) < 0.10
+        signal = "LOW_SIGNAL" if confidence < 0.40 else ("HUMAN_REVIEW" if review_required else "AUTO_RESOLVE")
         results.append({
             "category": str(pred),
             "category_confidence": round(confidence, 4),
+            "review_required": review_required,
+            "decision": signal,
             "top_alternatives": [
                 {"category": str(cat), "confidence": round(float(prob), 4)}
                 for cat, prob in ranked[:3]
@@ -157,6 +221,8 @@ def serialize_row(row):
         "classification_source": str(row.get("classification_source", "Model")),
         "original_category": str(row.get("original_category", row["category"])),
         "raw_text": str(row.get("raw_text", row.get("counterparty", ""))),
+        "review_required": float(row.get("category_confidence", 0)) < CONFIDENCE_THRESHOLD,
+        "decision": "HUMAN_REVIEW" if float(row.get("category_confidence", 0)) < CONFIDENCE_THRESHOLD else "AUTO_RESOLVE",
     }
 
 
@@ -184,6 +250,12 @@ def exception_items():
 
 
 def read_audit(limit=30):
+    try:
+        db_events = store.read_audit(limit)
+        if db_events:
+            return db_events
+    except Exception:
+        pass
     if not AUDIT_FILE.exists():
         return []
     lines = AUDIT_FILE.read_text(encoding="utf-8").splitlines()[-limit:]
@@ -197,6 +269,12 @@ def read_audit(limit=30):
 
 
 def feedback_df():
+    try:
+        db = store.feedback_df()
+        if not db.empty:
+            return db
+    except Exception:
+        pass
     if not FEEDBACK_FILE.exists():
         return pd.DataFrame(columns=[
             "timestamp", "transaction_id", "raw_text", "original_category",
@@ -299,6 +377,10 @@ def train_with_feedback():
             latest_feedback_rows=int(len(extra)),
             learning_mode="Automatic human-feedback learning enabled",
         )
+        try:
+            store.save_model(version, meta.get("trained_at"), meta, pickle.dumps(model_new), pickle.dumps(vectorizer_new))
+        except Exception as exc:
+            log_event("MODEL_DATABASE_SAVE_FAILED", error=str(exc), model_version=version)
         return int(len(combined)), int(len(extra)), meta
 
 
@@ -410,6 +492,10 @@ def update_category(transaction_id):
         }])
         header = not FEEDBACK_FILE.exists()
         feedback_row.to_csv(FEEDBACK_FILE, mode="a", index=False, header=header)
+        try:
+            store.append_feedback(feedback_row.iloc[0].to_dict())
+        except Exception as exc:
+            log_event("FEEDBACK_DATABASE_SAVE_FAILED", transaction_id=str(transaction_id), error=str(exc))
         log_event(
             "HUMAN_CORRECTION",
             transaction_id=str(transaction_id),
@@ -475,6 +561,8 @@ def upload():
         return jsonify({"error": f"Could not read CSV: {exc}"}), 400
     if incoming.empty:
         return jsonify({"error": "The CSV is empty."}), 400
+    if len(incoming) > app.config["MAX_UPLOAD_ROWS"]:
+        return jsonify({"error": f"CSV contains {len(incoming)} rows; maximum allowed is {app.config['MAX_UPLOAD_ROWS']}."}), 400
 
     text_col = next((c for c in ["Transaction_Text", "transaction_text", "raw_text", "description", "narration"] if c in incoming.columns), None)
     if text_col is None:
@@ -503,6 +591,10 @@ def upload():
     })
     transactions = result
     transactions.to_csv(DATA_FILE, index=False)
+    try:
+        store.replace_transactions(transactions)
+    except Exception as exc:
+        return jsonify({"error": f"Transaction batch could not be persisted safely: {exc}"}), 500
     log_event("BATCH_UPLOADED", filename=uploaded.filename, transactions=len(result), exceptions=int((result["category_confidence"] < CONFIDENCE_THRESHOLD).sum()))
     log_event("CLASSIFICATION_COMPLETED", transactions=len(result), auto_resolved=int((result["category_confidence"] >= CONFIDENCE_THRESHOLD).sum()))
     return jsonify({"transactions": [serialize_row(row) for _, row in transactions.iterrows()], "count": len(transactions)})
@@ -528,10 +620,19 @@ def export_feedback():
     return send_file(FEEDBACK_FILE, as_attachment=True, download_name="human_feedback.csv")
 
 
+@app.get("/api/storage")
+def storage():
+    """Expose safe storage diagnostics without revealing credentials."""
+    try:
+        return jsonify(store.storage_info())
+    except Exception as exc:
+        return jsonify({"persistent": False, "error": str(exc)}), 500
+
+
 @app.get("/api/health")
 def health():
     meta = load_model_metadata()
-    return jsonify({"ok": True, "transactions": len(transactions), "exceptions": len(get_exceptions_df()), "model_version": meta.get("version"), "human_feedback_rows": meta.get("human_feedback_rows", 0)})
+    return jsonify({"ok": True, "transactions": len(transactions), "exceptions": len(get_exceptions_df()), "model_version": meta.get("version"), "human_feedback_rows": meta.get("human_feedback_rows", 0), "storage": store.backend, "database_configured": store.is_configured})
 
 
 if __name__ == "__main__":

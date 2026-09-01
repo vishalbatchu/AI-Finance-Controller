@@ -1,6 +1,7 @@
 let allTransactions = [];
 let sortKey = "date";
 let sortDir = -1;
+let searchTerm = "";
 
 const CATEGORIES = ["Food", "Travel", "EMI", "Investment", "Shopping"];
 const money = n => `₹${Number(n).toLocaleString("en-IN", {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
@@ -56,6 +57,19 @@ async function refresh() {
   document.getElementById("humanExamplesLearned").textContent = learning.human_feedback_rows ?? summary.feedback_count ?? 0;
   document.getElementById("trainingRows").textContent = Number(learning.training_rows || 0).toLocaleString("en-IN");
   document.getElementById("lastLearned").textContent = learning.trained_at ? new Date(learning.trained_at).toLocaleString() : "Baseline";
+
+  document.getElementById("frontBatchCount").textContent = summary.total_transactions.toLocaleString("en-IN");
+  document.getElementById("tableLiveStatus").textContent = `SYNCED · ${new Date().toLocaleTimeString()}`;
+  const matchPct = Math.max(0, Math.min(1, Number(summary.match_rate || 0)));
+  const ring = document.getElementById("matchRing");
+  if (ring) ring.style.background = `conic-gradient(var(--accent) ${matchPct * 360}deg, #242b32 0deg)`;
+  const progress = document.getElementById("matchProgress");
+  if (progress) progress.style.width = `${matchPct * 100}%`;
+  const total = Number(summary.total_transactions || 0) || 1;
+  const sc = summary.status_counts || {};
+  [
+    ["settledBar", sc.Settled || 0], ["pendingBar", sc.Pending || 0], ["failedBar", sc.Failed || 0]
+  ].forEach(([id, value]) => { const el = document.getElementById(id); if (el) el.style.width = `${(Number(value) / total) * 100}%`; });
 
   renderExceptions(exceptions);
   renderTransactions();
@@ -160,7 +174,8 @@ document.getElementById("exceptionsList").addEventListener("click", e => {
 function filteredTransactions() {
   const cat = document.getElementById("categoryFilter").value;
   const status = document.getElementById("statusFilter").value;
-  return allTransactions.filter(x => !cat || x.category === cat).filter(x => !status || x.status === status).sort((a,b) => {
+  const q = searchTerm.toLowerCase();
+  return allTransactions.filter(x => !cat || x.category === cat).filter(x => !status || x.status === status).filter(x => !q || [x.transaction_id, x.counterparty, x.category, x.status, x.date].some(v => String(v ?? "").toLowerCase().includes(q))).sort((a,b) => {
     let av=a[sortKey], bv=b[sortKey];
     if (sortKey === "amount" || sortKey === "category_confidence") { av=Number(av); bv=Number(bv); }
     else { av=String(av); bv=String(bv); }
@@ -197,6 +212,9 @@ async function askQuestion(question) {
 document.getElementById("dashboardBtn").addEventListener("click",showDashboard);
 document.getElementById("backToTransactions").addEventListener("click",showTransactions);
 document.getElementById("categoryFilter").addEventListener("change",renderTransactions);
+document.getElementById("transactionSearch").addEventListener("input", e => { searchTerm = e.target.value.trim(); renderTransactions(); });
+document.getElementById("clearFilters").addEventListener("click", () => { document.getElementById("categoryFilter").value = ""; document.getElementById("statusFilter").value = ""; document.getElementById("transactionSearch").value = ""; searchTerm = ""; renderTransactions(); });
+document.addEventListener("keydown", e => { if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") { e.preventDefault(); document.getElementById("transactionSearch").focus(); } });
 document.getElementById("statusFilter").addEventListener("change",renderTransactions);
 document.querySelectorAll("th[data-key]").forEach(th=>th.addEventListener("click",()=>{const key=th.dataset.key;if(sortKey===key)sortDir*=-1;else{sortKey=key;sortDir=1;}renderTransactions();}));
 
