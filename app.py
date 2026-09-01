@@ -54,7 +54,7 @@ def _load_live_model():
     latest = store.model_latest()
     if latest and latest.get("model_blob") and latest.get("vectorizer_blob"):
         try:
-            return pickle.loads(bytes(latest["model_blob"])), pickle.loads(bytes(latest["vectorizer_blob"]))
+            return pickle.loads(bytes(latest["model_blob BYTEA"])), pickle.loads(bytes(latest["vectorizer_blob BYTEA"]))
         except Exception:
             pass
     return joblib.load(MODEL_FILE), joblib.load(VECTORIZER_FILE)
